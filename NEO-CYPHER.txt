@@ -25,3 +25,17 @@ CREATE (PC)-[r2:COMPONENT_OF]->(P)
 CREATE (P)-[r7:CATEGORY_OF]->(CATEGORY)
 RETURN P,PC,CATEGORY
 
+
+LOAD CSV FROM 'file:///main1.csv' AS line
+CREATE (CATEGORY:Category{name:line[14]})
+//CREATE CONSTRAINT ON (n:Category) ASSERT n.id IS UNIQUE
+CREATE CONSTRAINT [constraint1] [IF NOT EXISTS]
+FOR (n:Category)
+REQUIRE (n.id) IS UNIQUE
+
+
+CREATE (P:Product {name: line[0]})
+CREATE (PC:Product_component {name:line[1],Al_content:line[2],Cu_content:line[3],Steel_content:line[4],Plastic_content:line[5]})
+CREATE (PC)-[r2:COMPONENT_OF]->(P)
+CREATE (P)-[r7:CATEGORY_OF]->(CATEGORY)
+RETURN P,PC,CATEGORY
