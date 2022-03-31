@@ -1,0 +1,517 @@
+Product name ,Component ,Aluminum,Copper ,Steel ,Plastic ,Li-ion battery,PCB ,Flat panel glass,CRT glass ,Other glass,Other metals,Others,Total mass (g),Category
+Nokia 5165 (1998),Display,1.7,,,1.7,,,4.8,,,,,8.2,BASIC MOBILE PHONE
+Nokia 5165 (1998),Main body,,,2.2,45.7,73.3,42.6,,,,,1.1,164.9,BASIC MOBILE PHONE
+Sanyo SCP 4000 (1999),Display,,,,,,,5.7,,,,,5.7,BASIC MOBILE PHONE
+Sanyo SCP 4000 (1999),Main body,,,2.9,30.3,47.6,30.6,,,,,7.5,118.9,BASIC MOBILE PHONE
+LG VX 3200 (2004),Display,,,,2.2,,,3.7,,,,,5.9,BASIC MOBILE PHONE
+LG VX 3200 (2004),Main body,,6.5,0.4,36.7,22.7,17.6,,,,,5.8,89.7,BASIC MOBILE PHONE
+Mototrola V276 (2004),Display,0.2,,,3.5,,2.7,5.0,,,,,11.4,BASIC MOBILE PHONE
+Mototrola V276 (2004),Main body,7.0,5.4,0.6,37.7,23.1,16.7,,,,,8.1,98.6,BASIC MOBILE PHONE
+LG VX5200 (2005),Display,1.5,,,2.6,,1.8,5.4,,,,,11.3,BASIC MOBILE PHONE
+LG VX5200 (2005),Main body,0.5,5.0,0.3,37.3,21.6,13.4,,,,,8.9,87.0,BASIC MOBILE PHONE
+Motorola RAZR V3c (2005),Display,,,,,,,15.2,,,,,15.2,BASIC MOBILE PHONE
+Motorola RAZR V3c (2005),Main body,27.6,,0.6,16.7,19.6,11.6,,,,,8.9,85.0,BASIC MOBILE PHONE
+LG enV VX9100 (2008),Display,,,,,,,13.7,,,,,13.7,BASIC MOBILE PHONE
+LG enV VX9100 (2008),Main body,13.1,,0.7,41.7,23.7,24.2,,,,,7.6,111.0,BASIC MOBILE PHONE
+LG VX 8360 (2009),Display,,,,,,,10.4,,,,,10.4,BASIC MOBILE PHONE
+LG VX 8360 (2009),Main body,3.0,1.7,0.3,39.9,20.5,14.4,,,,,5.2,85.0,BASIC MOBILE PHONE
+LG VN 530 Octane (2010),Display,,,,,,,19.0,,,,,19.0,BASIC MOBILE PHONE
+LG VN 530 Octane (2010),Main body,,,3.0,55.6,21.0,22.1,,,,,6.1,107.8,BASIC MOBILE PHONE
+Samsung BD P1000 (2006),Case ,26.5,,"1,976.5",315.4,,,,,,,,"2,318.4",BLU-RAY PLAYER
+Samsung BD P1000 (2006),Disk drive ,,133.0,625.5,178.7,,84.8,,,,,55.2,"1,077.2",BLU-RAY PLAYER
+Samsung BD P1000 (2006),Interior modules,,28.6,4.9,55.6,,952.6,,,22.2,,,"1,063.9",BLU-RAY PLAYER
+Samsung BD P1400 (2007),Case ,,,"1,890.0",276.4,,,,,,,,"2,166.4",BLU-RAY PLAYER
+Samsung BD P1400 (2007),Disk drive ,,18.3,654.3,178.4,,78.2,,,,,58.5,987.7,BLU-RAY PLAYER
+Samsung BD P1400 (2007),Interior modules,,101.7,148.1,46.8,,532.0,,,25.0,,,853.6,BLU-RAY PLAYER
+Toshiba BDK33KU (approx. 2012),Case ,,,455.0,80.0,,,,,,,,535.0,BLU-RAY PLAYER
+Toshiba BDK33KU (approx. 2012),Disk drive ,,4.8,67.2,137.6,,0.8,,,,,2.9,213.3,BLU-RAY PLAYER
+Toshiba BDK33KU (approx. 2012),Interior modules,,33.2,6.1,55.5,,140.0,,,,,,234.8,BLU-RAY PLAYER
+CRT monitor (unknown model) (1997),Cabinet,,,,"2,480.0",,,,,,,,"2,480.0",CRT MONITOR
+CRT monitor (unknown model) (1997),Display ,,,,,,,,"7,749.0",,,,"7,749.0",CRT MONITOR
+CRT monitor (unknown model) (1997),Electrolytic capacitors,61.1,61.1,,,,,,,,,30.6,152.8,CRT MONITOR
+CRT monitor (unknown model) (1997),Frame,,,439.0,,,,,,,,,439.0,CRT MONITOR
+CRT monitor (unknown model) (1997),Heat sink ,281.0,,,,,,,,,,,281.0,CRT MONITOR
+CRT monitor (unknown model) (1997),ICs,,,,,,13.9,,,,,,13.9,CRT MONITOR
+CRT monitor (unknown model) (1997),Inductor coils,,37.5,37.5,18.8,,,,,,,,93.8,CRT MONITOR
+CRT monitor (unknown model) (1997),monitor cable ,,217.8,,72.6,,,,,,,,290.4,CRT MONITOR
+CRT monitor (unknown model) (1997),Motherboard ,,,105.2,,,645.5,,,,,,750.7,CRT MONITOR
+CRT monitor (unknown model) (1997),Socket ,,,,338.4,,,,,,,,338.4,CRT MONITOR
+CRT monitor (unknown model) (1997),Transformers,,254.7,254.7,,,,,,,,,509.4,CRT MONITOR
+"CRT TV 29"" (unknown model and year)",Chasis ,,7.0,60.0,"4,600.0",,,,,,673.0,,"5,340.0",CRT TV
+"CRT TV 29"" (unknown model and year)",Display ,,"1,745.0","4,046.0",421.0,,28.0,,"27,360.4",,93.0,3.0,"33,696.4",CRT TV
+"CRT TV 29"" (unknown model and year)",Motherboard ,321.0,,66.0,2.0,,349.0,,,,886.8,98.0,"1,722.8",CRT TV
+"CRT TV 29"" (unknown model and year)",Power supply unit ,,,,,,38.0,,,,372.7,2.0,412.7,CRT TV
+"CRT TV 29"" (unknown model and year)",Remote,,,2.0,72.0,,14.0,,,,36.2,17.2,141.4,CRT TV
+"CRT TV 29"" (unknown model and year)",Other components*,,53.0,58.0,75.0,,,,,,1.0,17.0,204.0,CRT TV
+RCA DVD/CD player (approx. 2004),Case,,,"2,103.1",276.9,,,,,,,0.9,"2,380.8",DVD PLAYER
+RCA DVD/CD player (approx. 2004),DVD drive,,9.6,200.6,779.1,,45.0,,,,,0.8,"1,035.1",DVD PLAYER
+RCA DVD/CD player (approx. 2004),Motherboard ,,318.0,539.9,212.0,,520.0,,,,,,"1,589.9",DVD PLAYER
+RCA DVD/CD player (approx. 2004),Other components*,46.5,,,108.5,,,,,,,,155.0,DVD PLAYER
+Sony SLV D360P (2005),Case,,,905.0,563.7,,,,,,,,"1,468.7",DVD PLAYER
+Sony SLV D360P (2005),DVD drive,12.2,19.2,109.2,217.9,,110.6,,,,,18.0,487.1,DVD PLAYER
+Sony SLV D360P (2005),Motherboard ,,,,,,547.7,,,,,,547.7,DVD PLAYER
+Sony SLV D360P (2005),Other components*,74.4,124.1,763.6,109.3,,,,,,,1.4,"1,072.8",DVD PLAYER
+Aspire Digital AD N820B (approx. 2005),Case,,,798.2,861.0,,,,,,,,"1,659.2",DVD PLAYER
+Aspire Digital AD N820B (approx. 2005),DVD drive,,,151.4,162.9,,1.3,,,,,2.7,318.3,DVD PLAYER
+Aspire Digital AD N820B (approx. 2005),Motherboard ,,10.9,5.2,16.3,,210.6,,,,,,242.9,DVD PLAYER
+Aspire Digital AD N820B (approx. 2005),Other components*,1.2,31.5,,84.6,,,,,,,,117.3,DVD PLAYER
+HP Compaq 6000 (2009),Access panel ,,,1102.6,2.4,,,,,,,,1105.0,TRADITIONAL DESKTOP
+HP Compaq 6000 (2009),Bottom casing ,,,,4535.9,,,,,,,,4535.9,TRADITIONAL DESKTOP
+HP Compaq 6000 (2009),Front bezel ,,,,242.9,,,,,,,,242.9,TRADITIONAL DESKTOP
+HP Compaq 6000 (2009),Hard drive ,255.8,20.3,47.3,20.7,,16.7,,,,,23.0,383.8,TRADITIONAL DESKTOP
+HP Compaq 6000 (2009),Heat sink ,211.4,28.8,51.3,,,,,,,,,291.5,TRADITIONAL DESKTOP
+HP Compaq 6000 (2009),Motherboard ,,,7.6,,,580.9,,,,,,588.5,TRADITIONAL DESKTOP
+HP Compaq 6000 (2009),Motherboard fan,10.3,10.1,16.6,140.5,,1.5,,,,,,178.9,TRADITIONAL DESKTOP
+HP Compaq 6000 (2009),Motherboard Port ,12.8,24.4,0.9,62.5,,,,,,,,100.6,TRADITIONAL DESKTOP
+HP Compaq 6000 (2009),Optical drive ,,23.2,446.4,169.8,,32.9,,,,,,672.3,TRADITIONAL DESKTOP
+HP Compaq 6000 (2009),Power supply ,,,731.2,,,533.3,,,,,,1264.5,TRADITIONAL DESKTOP
+HP Compaq 6000 (2009),Power switch ,,1.7,,8.9,,,,,,,,10.6,TRADITIONAL DESKTOP
+HP Compaq 6000 (2009),Rear fan ,10.3,10.1,18.9,63.9,,1.5,,,,,,104.7,TRADITIONAL DESKTOP
+HP Compaq 6000 (2009),Speaker,27.7,1.1,1.8,,,,,,,,,30.6,TRADITIONAL DESKTOP
+Desktop (unkown model and year),Disk drive/CD ROM ,433.4,,286.6,18.8,,144.9,,,,,,883.7,TRADITIONAL DESKTOP
+Desktop (unkown model and year),Floppy drive ,405.5,,234.4,,,31.1,,,,,,671.1,TRADITIONAL DESKTOP
+Desktop (unkown model and year),Hard disk drive,409.1,,,,,31.4,,,,,,440.5,TRADITIONAL DESKTOP
+Desktop (unkown model and year),Motherboard ,40.0,,,,,930.0,,,,,,970.0,TRADITIONAL DESKTOP
+Desktop (unkown model and year),Power supply ,151.2,148.6,635.1,111.2,,79.5,,,,,5.3,"1,130.9",TRADITIONAL DESKTOP
+Desktop (unkown model and year),Other components*,,181.3,"5,198.9",453.3,,38.9,,,,,,"5,872.3",TRADITIONAL DESKTOP
+Dell Optiplex 780 ultra small form factor (2010),Casing ,,,"1,195.0",63.0,,,,,,,,"1,258.0",TRADITIONAL DESKTOP
+Dell Optiplex 780 ultra small form factor (2010),Interior modules,303.6,69.0,312.0,,,7.4,,,,,104.0,796.0,TRADITIONAL DESKTOP
+Dell Optiplex 780 ultra small form factor (2010),Motherboard,37.0,30.0,33.0,2.0,,258.0,,,,31.0,36.0,427.0,TRADITIONAL DESKTOP
+Dell Optiplex 780 ultra small form factor (2010),Power supply ,11.0,125.0,220.0,6.0,,96.0,,,,,18.0,476.0,TRADITIONAL DESKTOP
+Dell Optiplex 780 ultra small form factor (2010),RAM,,,,,,14.0,,,,,,14.0,TRADITIONAL DESKTOP
+"HP Touchsmart 20"" 310-1125f (2011)",Case,,,6.6,937.3,,,,,,1.7,,945.6,INTELLIGENT DEKTOP
+"HP Touchsmart 20"" 310-1125f (2011)",Display ,,,"1,080.7",987.0,,30.0,460.0,,567.0,,7.1,"3,131.8",INTELLIGENT DEKTOP
+"HP Touchsmart 20"" 310-1125f (2011)",Hard drive ,114.8,13.6,432.1,6.8,,26.5,,,,193.3,36.6,823.6,INTELLIGENT DEKTOP
+"HP Touchsmart 20"" 310-1125f (2011)",Heat sink ,36.2,56.2,5.4,,,14.9,,,,36.2,,148.8,INTELLIGENT DEKTOP
+"HP Touchsmart 20"" 310-1125f (2011)",Interior modules,,,"1,436.6",,,,,,,,,"1,436.6",INTELLIGENT DEKTOP
+"HP Touchsmart 20"" 310-1125f (2011)",Motherboard,,,2.2,1.9,,385.0,,,,,,389.1,INTELLIGENT DEKTOP
+"HP Touchsmart 20"" 310-1125f (2011)",Optical drive ,55.4,3.8,79.8,42.8,,13.9,,,,3.0,1.4,200.0,INTELLIGENT DEKTOP
+"HP Touchsmart 20"" 310-1125f (2011)",Rear fan ,,0.5,3.7,61.1,,,,,,,,65.2,INTELLIGENT DEKTOP
+"HP Touchsmart 20"" 310-1125f (2011)",Speaker,,,32.4,91.6,,,,,,,1.6,125.6,INTELLIGENT DEKTOP
+"HP Touchsmart 20"" 310-1125f (2011)",Vertical support ,264.0,,"1,145.5",440.0,,,,,,,,"1,849.5",INTELLIGENT DEKTOP
+"HP Touchsmart 20"" 310-1125f (2011)",Other components*,,15.0,32.6,38.2,,3.5,,,,,,89.3,INTELLIGENT DEKTOP
+Sony Handycam CCD-TR940 (1998),Battery,1.4,1.3,,19.0,64.6,12.9,,,,,,99.2,DIGITAL CAMCORDER
+Sony Handycam CCD-TR940 (1998),Cassette Side,,1.6,6.7,50.9,,,,,,,,59.2,DIGITAL CAMCORDER
+Sony Handycam CCD-TR940 (1998),Eyepiece,,,,22.7,,9.4,2.6,,,,5.1,39.8,DIGITAL CAMCORDER
+Sony Handycam CCD-TR940 (1998),Lens,,2.4,31.4,96.5,,10.0,,,,,1.7,142.0,DIGITAL CAMCORDER
+Sony Handycam CCD-TR940 (1998),Main body,24.4,16.0,198.2,46.4,,50.6,,,,,11.9,347.5,DIGITAL CAMCORDER
+Sony Handycam CCD-TR940 (1998),Settings features,2.6,2.0,2.8,116.8,,14.4,,,,,7.9,146.5,DIGITAL CAMCORDER
+Sony Handycam CCD-TR940 (1998),Others*,1.1,,13.0,,,,,,,,,14.1,DIGITAL CAMCORDER
+Kodak Easy Share LS 443 (2002),Casing ,24.1,0.4,0.4,25.9,,,,,,,0.2,51.0,DIGITAL CAMERA
+Kodak Easy Share LS 443 (2002),Flash assembly ,1.7,1.9,,1.5,,0.9,,,,,8.2,14.2,DIGITAL CAMERA
+Kodak Easy Share LS 443 (2002),LCD assembly ,4.5,0.2,,2.2,,0.3,4.8,,,,0.9,12.9,DIGITAL CAMERA
+Kodak Easy Share LS 443 (2002),Lens assembly ,1.3,0.4,4.8,33.5,,0.5,,,7.5,,5.0,53.0,DIGITAL CAMERA
+Canon Power Shot S410 (2004),Casing ,41.9,,,12.0,,19.1,,,,,,73.0,DIGITAL CAMERA
+Canon Power Shot S410 (2004),Flash assembly ,7.8,3.0,17.7,0.6,,1.3,,,0.5,,7.3,38.2,DIGITAL CAMERA
+Canon Power Shot S410 (2004),LCD assembly ,2.6,0.1,0.4,1.5,,,3.1,,,,,7.7,DIGITAL CAMERA
+Canon Power Shot S410 (2004),Lens assembly ,2.9,0.1,11.2,9.0,,,,,,,7.9,31.1,DIGITAL CAMERA
+Kodak Easy Share (2008),Casing ,2.5,,0.7,42.9,,3.0,,,,,0.6,49.7,DIGITAL CAMERA
+Kodak Easy Share (2008),Flash assembly ,0.1,,0.8,0.8,,0.3,,,,,4.7,6.7,DIGITAL CAMERA
+Kodak Easy Share (2008),LCD assembly ,6.4,0.1,,2.9,,18.2,7.4,,,,,35.0,DIGITAL CAMERA
+Kodak Easy Share (2008),Lens assembly ,,1.0,9.3,21.2,,,,,2.6,,0.9,35.0,DIGITAL CAMERA
+Kodak Easy Share CD82 (2009),Casing ,,,,37.6,,16.3,,,,,,53.9,DIGITAL CAMERA
+Kodak Easy Share CD82 (2009),Flash assembly ,3.8,,20.4,1.0,,,,,,,4.4,29.6,DIGITAL CAMERA
+Kodak Easy Share CD82 (2009),LCD assembly ,4.5,0.2,1.6,4.2,,,9.8,,,,,20.3,DIGITAL CAMERA
+Kodak Easy Share CD82 (2009),Lens assembly ,,1.5,6.8,18.2,,,,,1.7,,4.8,33.0,DIGITAL CAMERA
+Nikon Coolpix S3000 (2010),Casing ,12.6,,5.9,0.9,14.6,9.3,,,,,,43.3,DIGITAL CAMERA
+Nikon Coolpix S3000 (2010),Flash assembly ,,,15.8,7.9,,,,,,,3.6,27.3,DIGITAL CAMERA
+Nikon Coolpix S3000 (2010),LCD assembly ,,,4.6,2.6,,,7.6,,,,,14.8,DIGITAL CAMERA
+Nikon Coolpix S3000 (2010),Lens assembly ,4.0,0.8,4.8,11.4,,,,,1.9,,2.2,25.0,DIGITAL CAMERA
+DJI Phantom FC40 P330D (2013),Balance charger ,,0.9,1.8,58.1,,107.9,,,,,0.6,169.2,DRONE
+DJI Phantom FC40 P330D (2013),"Connecting wires,adapters&extra parts ",17.0,27.3,48.7,71.5,,,,,,,,164.5,DRONE
+DJI Phantom FC40 P330D (2013),Drone (mainbody + camera),29.0,38.5,191.5,523.9,164.9,86.3,,,,0.7,10.1,"1,044.8",DRONE
+DJI Phantom FC40 P330D (2013),Remote control,6.8,3.7,125.7,304.6,,38.8,,,,,0.4,480.0,DRONE
+DJI Phantom FC40 P330D (2013),Remote control,,1.4,5.8,121.4,,48.7,12.8,,,,,190.1,DRONE
+Protocol Neo mini RC (2015),Drone (mainbody),,0.9,4.6,3.3,4.1,2.9,,,,,,15.8,DRONE
+Protocol Neo mini RC (2015),Remote control,,0.1,1.3,31.4,,23.4,,,,,,56.2,DRONE
+Protocol Neo mini RC (2015),Charger,,0.7,1.4,6.3,,0.4,,,,,,8.8,DRONE
+Promark P70-VR quadcopter (2016),Drone (main body + camera),2.3,25.1,124.3,348.1,113.0,27.2,,,,,0.1,640.1,DRONE
+Promark P70-VR quadcopter (2016),Remote control,1.4,12.5,12.6,177.4,,38.3,,,,,0.8,243.0,DRONE
+Promark P70-VR quadcopter (2016),3D Glasses,,,13.7,308.9,,,,,,,76.9,399.4,DRONE
+"Amazon Kindle Graphite (WiFi, 6"") (2010)",Battery ,,,,,53.1,,,,,,,53.1,E READER
+"Amazon Kindle Graphite (WiFi, 6"") (2010)",Casing ,3.6,,,57.5,,,,,,0.1,,61.2,E READER
+"Amazon Kindle Graphite (WiFi, 6"") (2010)",Display,,0.8,,,,0.4,31.3,,,,,32.5,E READER
+"Amazon Kindle Graphite (WiFi, 6"") (2010)",Interior modules,0.2,1.6,24.7,12.9,,,,,,0.1,0.7,40.2,E READER
+"Amazon Kindle Graphite (WiFi, 6"") (2010)",Motherboard ,9.7,,,,,25.3,,,,,,35.0,E READER
+"Amazon Kindle 7"" SQ46CW (2014)",Battery ,,,,,59.8,,,,,,,59.8,E READER
+"Amazon Kindle 7"" SQ46CW (2014)",Casing ,,,,53.6,,,,,,,,53.6,E READER
+"Amazon Kindle 7"" SQ46CW (2014)",Display,,0.2,1.8,26.1,,,43.6,,70.5,,,142.2,E READER
+"Amazon Kindle 7"" SQ46CW (2014)",Interior modules*,4.7,1.7,2.1,6.6,,,,,,28.9,0.7,44.7,E READER
+"Amazon Kindle 7"" SQ46CW (2014)",Motherboard ,,,,,,30.8,,,,,,30.8,E READER
+RCR REB 1100 E-book reader (2001),Battery ,,,,,91.9,,,,,,,91.9,E READER
+RCR REB 1100 E-book reader (2001),Casing ,,,28.6,178.0,,,,,,,,206.6,E READER
+RCR REB 1100 E-book reader (2001),Display,,,,9.8,,,114.8,,,0.4,0.6,125.6,E READER
+RCR REB 1100 E-book reader (2001),Interior modules,,,,,,,,,,,,0.0,E READER
+RCR REB 1100 E-book reader (2001),Motherboard ,9.0,,,,,82.3,,,,,,91.3,E READER
+Amazon Kindle 3rd generation WiFi (2010) ,Battery ,,,,,51.0,,,,,,,51.0,E READER
+Amazon Kindle 3rd generation WiFi (2010) ,Casing ,,,1.5,57.0,,,,,,,,58.5,E READER
+Amazon Kindle 3rd generation WiFi (2010) ,Display,,,,,,,34.0,,,,,34.0,E READER
+Amazon Kindle 3rd generation WiFi (2010) ,Interior modules,25.0,,,19.3,,,,,,,1.0,45.3,E READER
+Amazon Kindle 3rd generation WiFi (2010) ,Motherboard ,9.0,,,,,25.9,,,,,,34.9,E READER
+Fitbit One clip-on FB103 (2012),Clip,,,3.4,0.3,,,,,,,4.8,8.5,FITNESS TRACKER
+Fitbit One clip-on FB103 (2012),Fitness tracker body,1.88,,0.7,1.7,1.4,1.4,0.7,,,,,7.8,FITNESS TRACKER
+Fitbit Zip wireless activity tracker FB150 (2012),Fitness tracker body,,,,3,2.4,1.5,1,,,,,7.9,FITNESS TRACKER
+Fitbit Zip wireless activity tracker FB150 (2012),Clip,,,3.2,0.3,,,,,,,5,8.5,FITNESS TRACKER
+Jawbone 2nd generation (2013),Band cover,,,,,,,,,,,6.8,6.8,FITNESS TRACKER
+Jawbone 2nd generation (2013),End cap,,,0.5,0.5,,,,,,,,1,FITNESS TRACKER
+Jawbone 2nd generation (2013),End plate,,,0.2,,,,,,,,,0.2,FITNESS TRACKER
+Jawbone 2nd generation (2013),Inner band,0.2,,8,2.4,0.8,0.8,,,,,2.2,14.4,FITNESS TRACKER
+Samsung gear fit SMR350 (2014),Cable,,2.5,2,5.8,,,,,,,,10.3,FITNESS TRACKER
+Samsung gear fit SMR350 (2014),Cradle,,,,3.1,,1.1,,,,,,4.2,FITNESS TRACKER
+Samsung gear fit SMR350 (2014),Fitness tracker body,1.7,,0.3,5.1,3.5,2.9,2.9,,,,10,26.4,FITNESS TRACKER
+Sony Smartwatch SWR30 (2014),Fitness tracker body,0.9,0.2,2.7,2.6,1.6,1.2,3.5,,,,11.1,23.8,FITNESS TRACKER
+Fitbit Charge HR FB405 (2014),Band,,,,2.4,,,,,,,14.5,16.9,FITNESS TRACKER
+Fitbit Charge HR FB405 (2014),Buckle ,,,3.1,0.7,,,,,,,,3.8,FITNESS TRACKER
+Fitbit Charge HR FB405 (2014),Display,,,1.3,2.5,1.3,1.5,0.4,,,,0.1,7.1,FITNESS TRACKER
+XBOX 360 (2005),Casing,,,,665.9,,,,,,,,665.9,GAMING CONSOLE
+XBOX 360 (2005),CD tray,,4.6,411.1,160.5,,50.6,,,,,4.3,631.1,GAMING CONSOLE
+XBOX 360 (2005),Charger,189.8,,,218.0,,,,,,,,407.8,GAMING CONSOLE
+XBOX 360 (2005),Hard drive case,,,56.9,107.9,,,,,,,,164.8,GAMING CONSOLE
+XBOX 360 (2005),Hard drive,17.5,,17.0,21.1,,3.3,,,,,0.6,59.5,GAMING CONSOLE
+XBOX 360 (2005),Motherboard,314.6,,912.8,174.5,,380.1,,,,,,"1,782.0",GAMING CONSOLE
+XBOX 360 (2005),Other components*,0.9,,55.4,0.2,,,,,,,,56.5,GAMING CONSOLE
+Nintendo WII (2006),Casing,,,284.3,267.1,,,,,,,0.2,551.6,GAMING CONSOLE
+Nintendo WII (2006),Disc drive,,18.6,177.3,78.2,,31.2,,,,,7.6,312.9,GAMING CONSOLE
+Nintendo WII (2006),Motherboard,68.6,,,57.8,3.0,184.5,,,,,,313.9,GAMING CONSOLE
+Nintendo WII (2006),Outer plug,6.2,,13.8,25.3,,,,,,,,45.3,GAMING CONSOLE
+Nintendo WII (2006),Power supply,149.4,10.0,131.9,47.8,,50.0,,,,,,389.1,GAMING CONSOLE
+Dell Latitude CPi R -series PPX (1999),Battery ,0.8,,,44.0,368.6,9.4,,,,,3.5,426.3,LAPTOP
+Dell Latitude CPi R -series PPX (1999),Chasis bottom ,22.7,,1.5,206.3,,,,,,,0.1,230.6,LAPTOP
+Dell Latitude CPi R -series PPX (1999),Chasis top ,,,69.3,226.5,,,,,,0.8,0.4,297.0,LAPTOP
+Dell Latitude CPi R -series PPX (1999),Display ,,3.6,170.5,263.5,,42.3,265.0,,,,4.8,749.7,LAPTOP
+Dell Latitude CPi R -series PPX (1999),Fan ,0.3,,0.3,7.0,,0.2,,,,,0.1,7.9,LAPTOP
+Dell Latitude CPi R -series PPX (1999),Hard drive,27.9,1.8,94.3,17.0,,16.6,,,,,18.2,175.8,LAPTOP
+Dell Latitude CPi R -series PPX (1999),Heat sink ,37.3,14.1,0.5,,,,,,,,,51.9,LAPTOP
+Dell Latitude CPi R -series PPX (1999),Keyboard,109.4,0.1,,54.7,,,,,,10.5,0.6,175.3,LAPTOP
+Dell Latitude CPi R -series PPX (1999),Motherboard ,21.7,,0.5,,,326.3,,,,,1.2,349.7,LAPTOP
+Dell Latitude CPi R -series PPX (1999),Optical drive ,86.8,1.7,31.5,99.9,,16.6,,,,,27.7,264.1,LAPTOP
+Dell Latitude CPi R -series PPX (1999),Speakers,1.4,,,2.8,,,,,,,11.4,15.6,LAPTOP
+Dell Latitude CPi R -series PPX (1999),Other components*,58.8,1.0,58.8,102.5,,14.8,,,,,10.5,246.4,LAPTOP
+Dell CPX H5005T PPX (2000),Battery ,0.7,,,50.0,749.9,8.9,,,,,2.7,812.2,LAPTOP
+Dell CPX H5005T PPX (2000),Chasis bottom ,90.0,,7.1,215.9,,,,,,,7.9,320.9,LAPTOP
+Dell CPX H5005T PPX (2000),Chasis top ,,,2.1,254.8,,,,,,0.2,0.4,257.5,LAPTOP
+Dell CPX H5005T PPX (2000),Display ,34.4,7.1,263.4,287.7,,29.1,283.0,,,,,904.7,LAPTOP
+Dell CPX H5005T PPX (2000),Fan ,45.8,22.2,1.5,7.3,,56.0,,,,,,132.8,LAPTOP
+Dell CPX H5005T PPX (2000),Hard drive,41.9,3.5,73.7,12.5,,14.0,,,,,15.3,160.9,LAPTOP
+Dell CPX H5005T PPX (2000),Heat sink ,46.8,11.7,,,,,,,,,,58.5,LAPTOP
+Dell CPX H5005T PPX (2000),Keyboard,18.1,47.5,175.7,31.2,,,,,,,0.1,272.6,LAPTOP
+Dell CPX H5005T PPX (2000),Motherboard ,,,1.9,1.1,,389.6,,,,,,392.6,LAPTOP
+Dell CPX H5005T PPX (2000),Optical drive ,60.6,1.5,58.2,102.1,,11.7,,,,,12.7,246.8,LAPTOP
+Dell CPX H5005T PPX (2000),Speakers,1.6,,9.8,2.4,,,,,,1.4,0.8,16.0,LAPTOP
+Dell CPX H5005T PPX (2000),Other components*,1.2,1.7,51.0,87.2,,20.7,,,,2.1,11.9,175.7,LAPTOP
+"Dell Inspiron 14.1"" 4100 (2001)",Battery ,1.6,,,51.4,359.1,8.9,,,,,0.9,421.9,LAPTOP
+"Dell Inspiron 14.1"" 4100 (2001)",Chasis bottom ,,,1.0,147.0,,,,,,,,148.0,LAPTOP
+"Dell Inspiron 14.1"" 4100 (2001)",Chasis top ,15.0,,,250.0,,,,,,,,265.0,LAPTOP
+"Dell Inspiron 14.1"" 4100 (2001)",Display*,143.7,12.0,31.0,82.0,,22.2,166.0,,,,129.1,585.9,LAPTOP
+"Dell Inspiron 14.1"" 4100 (2001)",Fan ,7.0,,16.0,18.0,,0.0,,,,,5.0,46.0,LAPTOP
+"Dell Inspiron 14.1"" 4100 (2001)",Hard drive,35.0,,55.0,9.0,,14.0,,,,,9.0,122.0,LAPTOP
+"Dell Inspiron 14.1"" 4100 (2001)",Heat sink ,21.0,9.0,34.0,,,,,,,,,64.0,LAPTOP
+"Dell Inspiron 14.1"" 4100 (2001)",Keyboard,101.0,,,11.0,,,,,,,,112.0,LAPTOP
+"Dell Inspiron 14.1"" 4100 (2001)",Motherboard ,,,,,,290.0,,,,,10.0,300.0,LAPTOP
+"Dell Inspiron 14.1"" 4100 (2001)",Optical drive ,94.0,2.0,75.0,87.0,,24.0,,,,,11.0,293.0,LAPTOP
+"Dell Inspiron 14.1"" 4100 (2001)",Speakers,4.0,,,2.0,,,,,,,10.0,16.0,LAPTOP
+"Dell Inspiron 14.1"" 4100 (2001)",Other components*,91.0,1.0,85.0,101.0,,83.0,,,,,2.0,363.0,LAPTOP
+"Dell Latitude 14.1"" C600 (2001)",Battery ,,,,,423.7,,,,,,,423.7,LAPTOP
+"Dell Latitude 14.1"" C600 (2001)",Chasis bottom ,142.6,,24.0,143.1,,,,,,,2.1,311.8,LAPTOP
+"Dell Latitude 14.1"" C600 (2001)",Chasis top ,4.9,,,165.0,,,,,,,14.1,184.0,LAPTOP
+"Dell Latitude 14.1"" C600 (2001)",Display ,3.1,8.5,94.1,249.5,,22.1,245.0,,,1.4,5.6,629.3,LAPTOP
+"Dell Latitude 14.1"" C600 (2001)",Fan ,0.7,,,14.1,,,,,,,0.1,14.9,LAPTOP
+"Dell Latitude 14.1"" C600 (2001)",Hard drive,20.2,2.0,57.0,29.6,,,,,,,5.8,114.6,LAPTOP
+"Dell Latitude 14.1"" C600 (2001)",Heat sink ,61.5,,,,,,,,,,,61.5,LAPTOP
+"Dell Latitude 14.1"" C600 (2001)",Keyboard,,,59.8,39.0,,,,,,,15.3,114.1,LAPTOP
+"Dell Latitude 14.1"" C600 (2001)",Motherboard ,12.5,,,290.0,,,,,,,8.4,310.9,LAPTOP
+"Dell Latitude 14.1"" C600 (2001)",Optical drive ,26.1,,215.8,113.0,,,,,,,,354.9,LAPTOP
+"Dell Latitude 14.1"" C600 (2001)",Speakers,,4.8,,14.9,,,,,,,,19.7,LAPTOP
+"Dell Latitude 14.1"" C600 (2001)",Other components*,21.8,2.5,16.0,127.6,,,,,,,,167.9,LAPTOP
+"Dell Latitude 14.1"" C610 (2002)",Battery ,,,,63.4,359.5,,,,,,2.6,425.5,LAPTOP
+"Dell Latitude 14.1"" C610 (2002)",Chasis bottom ,81.6,0.5,9.8,175.1,,,,,,,0.2,267.2,LAPTOP
+"Dell Latitude 14.1"" C610 (2002)",Chasis top ,14.2,9.0,0.4,170.1,,,,,,,,193.7,LAPTOP
+"Dell Latitude 14.1"" C610 (2002)",Display ,,12.2,100.1,238.5,,33.8,270.0,,,,1.2,655.8,LAPTOP
+"Dell Latitude 14.1"" C610 (2002)",Fan ,,2.8,10.1,3.0,,4.3,,,,,0.1,20.4,LAPTOP
+"Dell Latitude 14.1"" C610 (2002)",Hard drive,58.9,,31.1,18.0,,13.5,,,,,7.7,129.2,LAPTOP
+"Dell Latitude 14.1"" C610 (2002)",Heat sink ,80.7,,,,,,,,,,,80.7,LAPTOP
+"Dell Latitude 14.1"" C610 (2002)",Keyboard,2.4,1.9,56.7,41.4,,2.4,,,,,3.4,108.2,LAPTOP
+"Dell Latitude 14.1"" C610 (2002)",Motherboard ,24.4,,3.1,,,294.8,,,,,,322.3,LAPTOP
+"Dell Latitude 14.1"" C610 (2002)",Optical drive ,52.4,6.2,180.7,97.9,,23.1,,,,,5.9,366.1,LAPTOP
+"Dell Latitude 14.1"" C610 (2002)",Speakers,2.7,1.9,1.3,12.3,,2.4,,,,,1.5,22.1,LAPTOP
+"Dell Latitude 14.1"" C610 (2002)",Other components*,41.5,2.4,2.8,117.2,,31.3,,,,,9.8,205.0,LAPTOP
+"Dell Inspiron 14.1"" 5100 (2003)",Battery ,4.1,,,75.4,543.8,7.6,,,,,2.8,633.7,LAPTOP
+"Dell Inspiron 14.1"" 5100 (2003)",Chasis bottom ,150.4,,,232.7,,,,,,,4.2,387.3,LAPTOP
+"Dell Inspiron 14.1"" 5100 (2003)",Chasis top ,48.9,,,253.5,,,,,,40.7,,343.1,LAPTOP
+"Dell Inspiron 14.1"" 5100 (2003)",Display,202.7,,,71.9,,24.2,234.2,,,,180.7,713.7,LAPTOP
+"Dell Inspiron 14.1"" 5100 (2003)",Fan ,,,,14.7,,,,,,,,14.7,LAPTOP
+"Dell Inspiron 14.1"" 5100 (2003)",Hard drive,80.9,,,43.6,,14.5,,,,,,139.0,LAPTOP
+"Dell Inspiron 14.1"" 5100 (2003)",Heat sink ,86.6,85.4,,,,,,,,,,171.9,LAPTOP
+"Dell Inspiron 14.1"" 5100 (2003)",Keyboard,47.6,,,64.4,,20.6,,,,,,132.6,LAPTOP
+"Dell Inspiron 14.1"" 5100 (2003)",Motherboard ,,,,,,279.8,,,,,19.4,299.2,LAPTOP
+"Dell Inspiron 14.1"" 5100 (2003)",Optical drive ,129.7,,49.7,26.9,,11.9,,,,,,218.2,LAPTOP
+"Dell Inspiron 14.1"" 5100 (2003)",Speakers,,,,12.7,,,,,,,,12.7,LAPTOP
+"Dell Inspiron 14.1"" 5100 (2003)",Other components*,22.3,,8.9,136.8,,24.6,,,,,4.4,197.0,LAPTOP
+"Dell Inspiron 14.1"" 5100 (2003)",Chasis top ,148.6,,,51.0,,,,,,,,199.6,LAPTOP
+"Dell Inspiron 14.1"" 5100 (2003)",Display ,53.6,9.4,5.0,57.3,,2.7,363.6,,,,22.7,514.3,LAPTOP
+"Dell Inspiron 14.1"" 5100 (2003)",Fan ,,,,23.3,,,,,,,,23.3,LAPTOP
+"Dell Inspiron 14.1"" 5100 (2003)",Hard drive,62.8,,61.8,6.1,,9.5,,,,,,140.2,LAPTOP
+"Dell Inspiron 14.1"" 5100 (2003)",Heat sink ,39.1,9.8,,,,,,,,,,48.9,LAPTOP
+"Dell Inspiron 14.1"" 5100 (2003)",Keyboard,74.3,,,37.3,,,,,,,,111.6,LAPTOP
+"Dell Inspiron 14.1"" 5100 (2003)",Motherboard ,,,,,,288.3,,,,,46.3,334.6,LAPTOP
+"Dell Inspiron 14.1"" 5100 (2003)",Optical drive ,12.8,26.2,29.3,59.4,,15.9,,,,,,143.6,LAPTOP
+"Dell Inspiron 14.1"" 5100 (2003)",Speakers,,,,27.6,,,,,,,,27.6,LAPTOP
+"Dell Inspiron 14.1"" 5100 (2003)",Other components*,74.5,,13.7,153.2,,31.7,,,,,10.8,284.0,LAPTOP
+"Dell Inspiron 14.1"" 5100 (2003)",Chasis top ,6.4,6.5,1.7,181.4,,,,,,,0.2,196.2,LAPTOP
+"Dell Inspiron 14.1"" 5100 (2003)",Display ,5.2,,65.0,219.9,,26.6,208.1,,,,13.1,537.9,LAPTOP
+"Dell Inspiron 14.1"" 5100 (2003)",Fan ,,0.8,2.6,19.0,,0.5,,,,,0.2,22.9,LAPTOP
+"Dell Inspiron 14.1"" 5100 (2003)",Hard drive,50.3,,38.0,7.1,,14.6,,,,,8.3,118.3,LAPTOP
+"Dell Inspiron 14.1"" 5100 (2003)",Heat sink ,45.6,45.6,0.4,,,6.2,,,,,0.3,98.1,LAPTOP
+"Dell Inspiron 14.1"" 5100 (2003)",Keyboard,77.6,,2.1,37.0,,,,,,,17.1,133.8,LAPTOP
+"Dell Inspiron 14.1"" 5100 (2003)",Motherboard ,,2.6,14.8,109.0,,231.2,,,,,4.2,361.8,LAPTOP
+"Dell Inspiron 14.1"" 5100 (2003)",Optical drive ,75.0,4.6,72.4,58.0,,20.7,,,,,,230.7,LAPTOP
+"Dell Inspiron 14.1"" 5100 (2003)",Speakers,,0.1,4.3,15.9,,,,,,,0.8,21.1,LAPTOP
+"Dell Inspiron 14.1"" 5100 (2003)",Other components*,14.5,2.1,8.2,150.6,,47.0,,,,1.1,11.7,235.2,LAPTOP
+"Dell Latitude 14.1"" D620 (2006)",Battery ,,,5.4,75.9,413.2,6.6,,,,,4.0,505.1,LAPTOP
+"Dell Latitude 14.1"" D620 (2006)",Chasis bottom ,,,3.7,,,,,,,246.3,14.3,264.3,LAPTOP
+"Dell Latitude 14.1"" D620 (2006)",Chasis top ,,,3.4,14.7,,,,,,159.8,0.8,178.7,LAPTOP
+"Dell Latitude 14.1"" D620 (2006)",Display ,4.0,24.6,105.2,194.1,,20.9,190.0,,,,9.9,548.7,LAPTOP
+"Dell Latitude 14.1"" D620 (2006)",Fan ,5.7,5.6,5.1,18.1,,1.4,,,,,,35.9,LAPTOP
+"Dell Latitude 14.1"" D620 (2006)",Hard drive,38.2,0.6,59.6,3.9,,10.7,,,,,14.7,127.7,LAPTOP
+"Dell Latitude 14.1"" D620 (2006)",Heat sink ,28.4,28.4,,,,,,,,,1.7,58.4,LAPTOP
+"Dell Latitude 14.1"" D620 (2006)",Keyboard,89.7,,3.1,32.8,,,,,,,16.6,142.2,LAPTOP
+"Dell Latitude 14.1"" D620 (2006)",Motherboard ,,2.4,16.0,,,249.9,,,,,2.0,270.2,LAPTOP
+"Dell Latitude 14.1"" D620 (2006)",Optical drive ,71.4,3.0,62.9,65.1,,23.9,,,,,0.1,226.4,LAPTOP
+"Dell Latitude 14.1"" D620 (2006)",Speakers,,0.1,4.8,6.8,,,,,,,0.3,12.0,LAPTOP
+"Dell Latitude 14.1"" D620 (2006)",Other components*,11.4,4.6,14.5,166.3,,38.8,,,,,10.9,246.5,LAPTOP
+"Dell latitude 14.1"" D630 (2007)",Battery ,,7.3,9.6,74.7,406.5,7.2,,,,,1.8,507.1,LAPTOP
+"Dell latitude 14.1"" D630 (2007)",Keyboard,93.3,,2.0,32.1,,,,,,,18.3,145.7,LAPTOP
+"Dell latitude 14.1"" D630 (2007)",Motherboard ,2.1,,4.9,9.5,,270.0,,,,,1.9,288.3,LAPTOP
+"Dell latitude 14.1"" D630 (2007)",Optical drive ,83.8,4.1,42.8,70.6,,23.9,,,,,0.2,225.4,LAPTOP
+"Dell latitude 14.1"" D630 (2007)",Speakers,,0.1,4.8,6.8,,,,,,,0.3,12.0,LAPTOP
+"Dell latitude 14.1"" D630 (2007)",Other components*,11.4,7.7,16.1,168.2,,39.2,,,,,5.5,248.1,LAPTOP
+"Dell Inspiron 15.4""1525 (2008)",Battery ,,1.3,1.3,40.2,272.1,7.8,,,,,1.2,323.8,LAPTOP
+"Dell Inspiron 15.4""1525 (2008)",Chasis bottom /Back cover,0.4,,128.8,255.8,,,,,,,1.6,386.6,LAPTOP
+"Dell Inspiron 15.4""1525 (2008)",Chasis top ,,,,,,,,,,,,,LAPTOP
+"Dell Inspiron 15.4""1525 (2008)",Display ,82.3,2.1,74.3,519.7,,25.3,207.3,,,,7.0,917.9,LAPTOP
+"Dell Inspiron 15.4""1525 (2008)",Fan ,0.4,1.1,14.8,16.7,,0.7,,,,,2.1,35.7,LAPTOP
+"Dell Inspiron 15.4""1525 (2008)",Hard drive,8.8,,25.7,50.0,,12.2,,,,,9.5,106.2,LAPTOP
+"Dell Inspiron 15.4""1525 (2008)",Heat sink ,17.7,15.7,4.5,0.1,,,,,,,1.0,39.0,LAPTOP
+"Dell Inspiron 15.4""1525 (2008)",Chasis bottom ,4.4,,10.0,32.9,,,,,,123.9,1.9,173.1,LAPTOP
+"Dell Inspiron 15.4""1525 (2008)",Chasis top ,,,,,,,,,,,,0.0,LAPTOP
+"Dell Inspiron 15.4""1525 (2008)",Display ,112.8,5.4,47.6,129.3,,18.3,84.7,,,70.2,4.5,473.0,LAPTOP
+"Dell Inspiron 15.4""1525 (2008)",Fan ,,0.4,4.1,4.9,,2.6,,,,,0.1,12.1,LAPTOP
+"Dell Inspiron 15.4""1525 (2008)",Hard drive,,0.5,49.2,3.6,,5.0,,,,,4.3,62.6,LAPTOP
+"Dell Inspiron 15.4""1525 (2008)",Heat sink ,4.5,19.6,2.3,,,,,,,,,26.3,LAPTOP
+"Dell Inspiron 15.4""1525 (2008)",Keyboard,8.6,0.4,54.0,141.7,,20.9,,,,20.3,4.0,249.9,LAPTOP
+"Dell Inspiron 15.4""1525 (2008)",Motherboard ,0.2,4.8,34.8,41.6,,130.2,,,,,3.4,215.0,LAPTOP
+"Dell Inspiron 15.4""1525 (2008)",Optical drive ,56.8,3.7,50.6,21.4,,12.3,,,,,0.4,145.1,LAPTOP
+"Dell Inspiron 15.4""1525 (2008)",Speakers,,0.3,2.9,2.0,,,,,,,,5.1,LAPTOP
+"Dell Inspiron 15.4""1525 (2008)",Other components*,2.4,2.2,9.6,9.9,,34.2,,,,,0.5,58.8,LAPTOP
+"HP elitebook 14.1"" 6930p (2008)",Battery ,,1.1,,35.8,274.5,5.0,,,,,0.2,316.5,LAPTOP
+"HP elitebook 14.1"" 6930p (2008)",Keyboard,101.9,1.6,53.0,137.3,,10.1,,,,10.3,8.5,322.7,LAPTOP
+"HP elitebook 14.1"" 6930p (2008)",Motherboard ,,2.0,35.6,34.0,,138.0,,,,,,209.5,LAPTOP
+"HP elitebook 14.1"" 6930p (2008)",Optical drive ,62.5,8.6,47.4,36.7,,15.4,,,,,9.4,179.9,LAPTOP
+"HP elitebook 14.1"" 6930p (2008)",Speakers,,0.4,3.8,14.2,,,,,,,,18.4,LAPTOP
+"HP elitebook 14.1"" 6930p (2008)",Other components*,9.6,0.1,30.9,25.8,,61.3,,,,,3.6,131.3,LAPTOP
+"HP Elitebook 17"" 8730w (2008)",Battery ,,,7.2,45.0,373.7,4.0,,,,,,429.9,LAPTOP
+"HP Elitebook 17"" 8730w (2008)",Keyboard,153.9,7.8,44.3,197.4,,17.6,,,,,3.4,424.4,LAPTOP
+"HP Elitebook 17"" 8730w (2008)",Motherboard ,2.9,,32.7,29.0,,280.0,,,,,2.9,347.5,LAPTOP
+"HP Elitebook 17"" 8730w (2008)",Optical drive ,60.5,4.6,49.3,34.0,,17.8,,,,,7.9,174.1,LAPTOP
+"HP Elitebook 17"" 8730w (2008)",Speakers,0.4,0.3,4.6,31.8,,,,,,,0.1,37.2,LAPTOP
+"HP Elitebook 17"" 8730w (2008)",Other components*,27.8,0.4,4.9,52.5,,23.6,,,,,3.2,112.4,LAPTOP
+"Dell Latitude 14.1"" E6410 (2010)",Battery ,,,1.5,35.0,285.0,8.0, ,,,,1.5,331.0,LAPTOP
+"Dell Latitude 14.1"" E6410 (2010)",Chasis top ,20.1,13.4,43.1,16.3,,0.6,,,,150.5,7.5,251.4,LAPTOP
+"Dell Latitude 14.1"" E6410 (2010)",Display ,,,36.9,175.0,,20.0,170.0,,,9.0,3.5,414.4,LAPTOP
+"Dell Latitude 14.1"" E6410 (2010)",Hard drive,,0.4,91.9,,,11.6,,,,,6.5,110.4,LAPTOP
+"Dell Latitude 14.1"" E6410 (2010)",Heat sink ,22.7,22.6,8.6,,,,,,,,,53.9,LAPTOP
+"Dell Latitude 14.1"" E6410 (2010)",Keyboard,63.0,,,66.1,,,,,,,,129.1,LAPTOP
+"Dell Latitude 14.1"" E6410 (2010)",Motherboard ,,,1.8,,,300.0,,,,,,301.8,LAPTOP
+"Dell Latitude 14.1"" E6410 (2010)",Optical drive ,54.2,1.8,51.0,23.3,,16.3,,,,,1.0,147.6,LAPTOP
+"Dell Latitude 14.1"" E6410 (2010)",Speakers,,,,11.2,,,,,,,2.6,13.8,LAPTOP
+"Dell Latitude 14.1"" E6410 (2010)",Other components*,1.8,,56.9,169.7,,17.9,,,,,22.8,269.1,LAPTOP
+"Apple Macbook pro 15.4"" A1286 (2011)",Battery ,,,1.3,0.3,460.0,,,,,,4.7,466.3,LAPTOP
+"Apple Macbook pro 15.4"" A1286 (2011)",Chasis bottom ,198.0,,1.3,,,,,,,,,199.3,LAPTOP
+"Apple Macbook pro 15.4"" A1286 (2011)",Chasis top ,288.0,,24.8,,,,,,,,4.4,317.2,LAPTOP
+"Apple Macbook pro 15.4"" A1286 (2011)",Display ,86.3,0.3,2.2,145.1,,,219.0,,,,13.1,466.0,LAPTOP
+"Apple Macbook pro 15.4"" A1286 (2011)",Fan ,12.4,0.8,4.2,5.2,,2.4,,,,9.0,,34.0,LAPTOP
+"Apple Macbook pro 15.4"" A1286 (2011)",Hard drive,3.5,0.7,61.1,29.5,,11.4,,,,,6.6,112.8,LAPTOP
+"Apple Macbook pro 15.4"" A1286 (2011)",Heat sink ,12.0,29.0,2.5,,,,,,,,,43.5,LAPTOP
+"Apple Macbook pro 15.4"" A1286 (2011)",Keyboard,36.0,,1.0,56.0,,,,,,,,93.0,LAPTOP
+"Apple Macbook pro 15.4"" A1286 (2011)",Motherboard ,2.7,,1.9,,,195.0,,,,1.0,,200.6,LAPTOP
+"Apple Macbook pro 15.4"" A1286 (2011)",Optical drive ,56.4,3.7,51.4,5.9,,10.3,,,,,0.5,128.2,LAPTOP
+"Apple Macbook pro 15.4"" A1286 (2011)",Speakers,,,0.5,13.6,,,,,,,0.3,14.4,LAPTOP
+"Apple Macbook pro 15.4"" A1286 (2011)",Other components*,329.2,,2.5,24.4,,,,,,,1.5,357.6,LAPTOP
+"HP 19"" W1907 flat panel monitor (2006)",Casing,,,3.6,572.0,,,,,,,,575.6,LCD MONITOR
+"HP 19"" W1907 flat panel monitor (2006)",Display,19.8,,774.9,"1,052.8",,30.0,392.0,,,,6.2,"2,275.7",LCD MONITOR
+"HP 19"" W1907 flat panel monitor (2006)",Interior frame,,,792.0,,,,,,,,,792.0,LCD MONITOR
+"HP 19"" W1907 flat panel monitor (2006)",Motherboard,,,,,,279.0,,,,,,279.0,LCD MONITOR
+"HP 19"" W1907 flat panel monitor (2006)",Speaker,,,15.1,24.2,,,,,,,1.4,40.7,LCD MONITOR
+"HP 19"" W1907 flat panel monitor (2006)",Stand,400.0,,270.4,245.0,,,,,,,0.7,916.1,LCD MONITOR
+"HP 19"" W1907 flat panel monitor (2006)",Other components*,4.6,,9.0,27.3,,43.0,,,,,7.1,91.0,LCD MONITOR
+"Dell 15"" E157FPB (approx.  2008)",Casing,,,4.9,255.0,,,,,,,,259.9,LCD MONITOR
+"Dell 15"" E157FPB (approx.  2008)",Display,68.0,1.6,65.5,574.9,,17.4,295.0,,,,4.0,"1,026.3",LCD MONITOR
+"Dell 15"" E157FPB (approx.  2008)",Interior frame,,,585.0,,,,,,,,,585.0,LCD MONITOR
+"Dell 15"" E157FPB (approx.  2008)",Motherboard,,,7.2,,,235.0,,,,,,242.2,LCD MONITOR
+"Dell 15"" E157FPB (approx.  2008)",Speaker,,,,,,,,,,,,0.0,LCD MONITOR
+"Dell 15"" E157FPB (approx.  2008)",Stand,160.0,,354.1,162.0,,,,,,,0.3,676.4,LCD MONITOR
+"Dell 15"" E157FPB (approx.  2008)",Other components*,21.2,2.0,11.6,4.3,,,,,,,,39.1,LCD MONITOR
+"Samsung Syncmaster 2243 21.5"" (2009)",Casing,,,1003.5,1153,,,,,,,,2156.5,LCD MONITOR
+"Samsung Syncmaster 2243 21.5"" (2009)",Display,,,,,,,"2,350.0",,,,,2350,LCD MONITOR
+"Samsung Syncmaster 2243 21.5"" (2009)",Motherboard ,,4.7,,,,35.4,,,,,,40.1,LCD MONITOR
+"Samsung Syncmaster 2243 21.5"" (2009)",Power Supply,18.0,101.0,,,,18.0,,,,,36.4,173.4,LCD MONITOR
+"Samsung Syncmaster 2243 21.5"" (2009)",Other components*,,350.0,,,,,,,,,,350,LCD MONITOR
+"Samsung 40"" LN40B500P3F (2009)",Brackets ,,,757.6,165.0,,,,,,,,922.6,LCD TV
+"Samsung 40"" LN40B500P3F (2009)",Case,,,,"3,650.0",,,,,,,,"3,650.0",LCD TV
+"Samsung 40"" LN40B500P3F (2009)",Display ,,,,"1,165.0",,96.1,"1,780.0",,,,166.6,"3,207.7",LCD TV
+"Samsung 40"" LN40B500P3F (2009)",Inner frame,,,"5,000.0",,,,,,,,,"5,000.0",LCD TV
+"Samsung 40"" LN40B500P3F (2009)",Motherboard,,,,,,850.0,,,,,,850.0,LCD TV
+"Samsung 40"" LN40B500P3F (2009)",Outer frame,,,,350.0,,,,,,,,350.0,LCD TV
+"Samsung 40"" LN40B500P3F (2009)",Speakers,,,78.7,170.2,,121.6,,,,,,370.5,LCD TV
+"Samsung 40"" LN40B500P3F (2009)",Other components*,,,52.6,,,,,,,,2.6,55.2,LCD TV
+"LCD TV 32"" (unknown model and year)",Chasis ,205.0,,"5,498.0","3,725.5",,,,,,251.8,,"9,680.3",LCD TV
+"LCD TV 32"" (unknown model and year)",Display ,,,,,,156.0,"6,990.0",,,216.0,5.0,"7,367.0",LCD TV
+"LCD TV 32"" (unknown model and year)",Motherboard ,20.0,1.0,28.0,,,467.6,,,,29.2,121.9,667.7,LCD TV
+"LCD TV 32"" (unknown model and year)",Power supply ,84.5,22.8,10.2,17.3,,179.4,,,,492.1,23.5,829.8,LCD TV
+"LCD TV 32"" (unknown model and year)",Others components*,,125.9,95.1,53.4,,,,,,,27.5,301.9,LCD TV
+"LG Smart TV 43"" 43UH610A-UJ (2016)",Case,,,,"2,270.0",,,,,,,,"2,270.0",LED TV
+"LG Smart TV 43"" 43UH610A-UJ (2016)",Display ,,,,"1,180.0",,25.6,"1,460.0",,,,,"2,665.6",LED TV
+"LG Smart TV 43"" 43UH610A-UJ (2016)",Inner frame ,,,"2,865.0",,,,,,,,,"2,865.0",LED TV
+"LG Smart TV 43"" 43UH610A-UJ (2016)",Motherboard ,,,,,,235.0,,,,,,235.0,LED TV
+"LG Smart TV 43"" 43UH610A-UJ (2016)",Power supply board,,,,,,325.0,,,,,,325.0,LED TV
+"LG Smart TV 43"" 43UH610A-UJ (2016)",Speakers,,,,500.0,,,,,,,,500.0,LED TV
+"LG Smart TV 43"" 43UH610A-UJ (2016)",Other components*,,,24.0,363.5,,,,,,,28.7,416.2,LED TV
+"LG Smart TV 43"" 43UH610A-UJ (2016)",Main body,,,1.2,27.1,,18.9,,,,,0.6,47.8,LED TV
+Mini iPod MP5002 (2004),Display,,0.1,,2.4,,,3.6,,,,1.6,7.7,MP3 PLAYER
+Mini iPod MP5002 (2004),Main body,31.4,1.9,20.8,5.7,12.4,16.1,,,,,2.2,90.5,MP3 PLAYER
+iPod classic A1136  (2005),Display,,,,,,,9.6,,,,,9.6,MP3 PLAYER
+iPod classic A1136  (2005),Main body,6.6,0.2,72.7,8.34,11.5,14.1,,,2.76,,2.4,118.6,MP3 PLAYER
+iPod Touch (2008),Display,,,,3.4,,,7.2,,24,,,34.6,MP3 PLAYER
+iPod Touch (2008),Main body ,48.4,1.3,0.3,1.9,15.6,4.7,,,,,0.6,72.8,MP3 PLAYER
+Sansa Fuze+ MP3 player (2010),Display,,,,,,,6.5,,,,,6.5,MP3 PLAYER
+Sansa Fuze+ MP3 player (2010),Main body,17,,0.3,11.1,11.9,9.2,,,6.37,,0.7,56.6,MP3 PLAYER
+iPod Touch (2009),Display*,,,,,,,11,,24,,,35,MP3 PLAYER
+iPod Touch (2009),Main body ,48.1,0.7,1.7,3.3,16,3.8,,,,,0.4,74,MP3 PLAYER
+"Sony Vaio 10.4"" PCG-505FX (1998)*",Battery,,,,,227,,,,,,,227.0,NETBOOK
+"Sony Vaio 10.4"" PCG-505FX (1998)*",Chasis bottom ,0.1,2.6,4.6,12.4,,0.2,,,,,6.4,26.3,NETBOOK
+"Sony Vaio 10.4"" PCG-505FX (1998)*",Chasis top ,,,,,,,,,,120.3,,120.3,NETBOOK
+"Sony Vaio 10.4"" PCG-505FX (1998)*",Display ,2.8,2.2,49.7,47.1,,20.9,257.9,,,30.2,6.8,417.6,NETBOOK
+"Sony Vaio 10.4"" PCG-505FX (1998)*",Fan ,,,,,,,,,,,,,NETBOOK
+"Sony Vaio 10.4"" PCG-505FX (1998)*",Hard drive,9.7,0.4,62.1,16.9,,11.3,,,,,10.0,110.4,NETBOOK
+"Sony Vaio 10.4"" PCG-505FX (1998)*",Heat sink ,0.1,,19.1,,,,,,,,0.4,19.6,NETBOOK
+"Sony Vaio 10.4"" PCG-505FX (1998)*",Keyboard,24.8,1.5,1.7,61.7,,,,,,,3.2,92.9,NETBOOK
+"Sony Vaio 10.4"" PCG-505FX (1998)*",Motherboard ,1.2,3.3,3.8,2.0,,171.0,,,,,0.8,182.1,NETBOOK
+"Sony Vaio 10.4"" PCG-505FX (1998)*",Speakers,,,,,,,,,,,,,NETBOOK
+"Sony Vaio 10.4"" PCG-505FX (1998)*",Other components*,41.9,2.7,0.1,16.0,,,,,,56.2,8.8,125.7,NETBOOK
+"Acer Aspire one 8"" ZG5 (2008)",Battery ,,,,23.9,129.3,4.8,,,,,1.3,159.3,NETBOOK
+"Acer Aspire one 8"" ZG5 (2008)",Chasis bottom ,1.7,,0.5,97.1,,,,,,,0.6,99.9,NETBOOK
+"Acer Aspire one 8"" ZG5 (2008)",Chasis top ,,,1.0,86.0,,,,,,2.0,,89.0,NETBOOK
+"Acer Aspire one 8"" ZG5 (2008)",Display ,4.7,1.3,49.2,29.4,,15.2,111.5,,,0.7,25.6,237.6,NETBOOK
+"Acer Aspire one 8"" ZG5 (2008)",Fan ,0.3,0.8,,1.8,,0.3,,,,0.8,,3.9,NETBOOK
+"Acer Aspire one 8"" ZG5 (2008)",Hard drive,40.4,1.7,17.0,26.2,,12.1,,,,,7.3,104.7,NETBOOK
+"Acer Aspire one 8"" ZG5 (2008)",Heat sink ,11.3,,,,,,,,,,0.2,11.5,NETBOOK
+"Acer Aspire one 8"" ZG5 (2008)",Keyboard,63.9,3.1,0.6,30.4,,,,,,,,97.9,NETBOOK
+"Acer Aspire one 8"" ZG5 (2008)",Motherboard ,2.0,,1.5,1.1,,159.8,,,,,0.5,164.9,NETBOOK
+"Acer Aspire one 8"" ZG5 (2008)",Speakers,1.0,0.1,2.8,1.2,,,,,,,0.1,5.2,NETBOOK
+"Acer Aspire one 8"" ZG5 (2008)",Other components*,2.5,,0.04,100.8,,8.4,,,,0.5,0.3,112.5,NETBOOK
+Asus EEE PC (2008),Battery ,,,,,211.9,,,,,,,211.9,NETBOOK
+Asus EEE PC (2008),Chasis top ,,,,91.0,,,,,,,,91.0,NETBOOK
+Asus EEE PC (2008),Chasis bottom ,,,,88.6,,,,,,,,88.6,NETBOOK
+Asus EEE PC (2008),Display ,62.8,3.4,14.0,70.6,,9.5,47.9,,,,10.7,218.8,NETBOOK
+Asus EEE PC (2008),Fan,,0.9,,7.0,,1.0,,,,,,8.9,NETBOOK
+Asus EEE PC (2008),Keyboard ,58.4,,,56.8,,4.1,,,,,,119.3,NETBOOK
+Asus EEE PC (2008),Motherboard,1.7,,,,,147.2,,,,,3.2,152.1,NETBOOK
+Asus EEE PC (2008),Others*,,,4.2,,,,,,,,1.2,5.4,NETBOOK
+"Plasma PDP 42"" TV (unknown model and year)",Chasis ,735.0,14.3,"13,441.7","2,827.0",,,,,"2,866.7",,111.5,"19,996.2",PLASMA TV
+"Plasma PDP 42"" TV (unknown model and year)",Display ,"3,579.9",5.5,515.0,648.5,,322.5,"9,109.0",,,133.0,178.1,"14,491.5",PLASMA TV
+"Plasma PDP 42"" TV (unknown model and year)",Motherboard,181.7,35.1,70.6,,,804.9,,,,206.6,401.7,"1,700.6",PLASMA TV
+"Plasma PDP 42"" TV (unknown model and year)",Power supply ,355.7,29.5,41.7,64.3,,246.0,,,,503.8,310.3,"1,551.3",PLASMA TV
+"Plasma PDP 42"" TV (unknown model and year)",Remote control ,,,43.0,70.0,,15.0,,,,4.5,2.5,135.0,PLASMA TV
+"Plasma PDP 42"" TV (unknown model and year)",Other components*,,127.5,104.9,130.0,,,,,,,,362.4,PLASMA TV
+HP Deskjet 932C (1999),Frame,,,"2,115.0",,,,,,,,,"2,115.0",PRINTER
+HP Deskjet 932C (1999),Main body ,2.1,,,985.1,,,,,,,,987.2,PRINTER
+HP Deskjet 932C (1999),Motherboard ,,,,,,252.9,,,,,,252.9,PRINTER
+HP Deskjet 932C (1999),Motor,,,183.3,183.3,,,,,,,,366.6,PRINTER
+HP Deskjet 932C (1999),Tray ,,,3.7,482.5,,,,,,,,486.2,PRINTER
+HP Deskjet 932C (1999),Others*,67.7,40.6,752.9,862.7,,,,,,,32.7,"1,756.6",PRINTER
+Dell photo printer 720 (approx.  2004),Case,,,,932.0,,,,,,,,932.0,PRINTER
+Dell photo printer 720 (approx.  2004),Paper feed ,,,165.7,137.2,,41.4,,,,,22.3,366.6,PRINTER
+Dell photo printer 720 (approx.  2004),Print catridge,,9.9,367.8,116.5,,5.1,,,,,2.7,502.0,PRINTER
+HP Officejet Pro 8000 (2009),Access panel assembly ,,,127.3,752.2,,,,,,,,879.5,PRINTER
+HP Officejet Pro 8000 (2009),Case assembly ,,0.4,93.9,"3,090.7",,16.9,,,,,,"3,201.9",PRINTER
+HP Officejet Pro 8000 (2009),Main assembly ,,55.7,"2,147.3","1,094.8",,162.3,,,,,94.7,"3,554.8",PRINTER
+HP Officejet Pro 8000 (2009),Print catridge ,,1.1,54.7,510.6,,4.9,,,,,4.0,575.3,PRINTER
+Dell A940 all-in-one (2003),Bottom assembly ,,12.3,"1,002.5","2,132.9",,139.6,,,,,3.8,"3,291.1",PRINTER
+Dell A940 all-in-one (2003),Feed tray,,,3.9,286.8,,,,,,,,290.7,PRINTER
+Dell A940 all-in-one (2003),Lid for scanner,,,,412.4,,,,,,,59.1,471.5,PRINTER
+Dell A940 all-in-one (2003),Scanner ,,8.3,270.1,"1,226.1",,66.2,8.3,,721.4,,29.9,"2,330.2",PRINTER
+Kodak printer ESP7 all-in-one (2009),Display,,51.7,,,,,21.1,,,,3.6,76.4,PRINTER
+Kodak printer ESP7 all-in-one (2009),Motherboard,,,,,,282.2,,,,,,282.2,PRINTER
+Kodak printer ESP7 all-in-one (2009),Motor,,,146.7,146.7,,,,,,,,293.4,PRINTER
+Kodak printer ESP7 all-in-one (2009),Paper feed,4.2,,423.8,,,,,,,,,428.0,PRINTER
+Kodak printer ESP7 all-in-one (2009),Print nozzle,,,"1,075.3",,,,,,,,,"1,075.3",PRINTER
+Kodak printer ESP7 all-in-one (2009),Scanner,,,,"3,620.0",,,,,640.0,,,"4,260.0",PRINTER
+Kodak printer ESP7 all-in-one (2009),Other components*,,,,"1,733.2",,,,,,,180.7,"1,913.9",PRINTER
+Palm Treo 650 (2004)*,Display,,,,,,,30.1,,,,,30.1,SMARTPHONE
+Palm Treo 650 (2004)*,Main body,5.5,2.2,1,37.9,41.5,48.3,,,,,13.3,149.7,SMARTPHONE
+LG VX5300 (2006),Display,,,,,,,9.3,,,,,9.3,SMARTPHONE
+LG VX5300 (2006),Main body,,2.2,0.5,35.6,22.4,11.4,,,,,9.8,81.9,SMARTPHONE
+iPhone 1st generation A1203 (2007),Display,8,,,3.8,,,5.4,,17.0,,,34.2,SMARTPHONE
+iPhone 1st generation A1203 (2007),Main body,44.2,0.5,0.5,16.7,26.1,14.6,,,,,7.6,110.2,SMARTPHONE
+Motorola ROKR (RIZR) Z6 (2007),Display,,,,1.3,,,2.9,,,,,4.2,SMARTPHONE
+Motorola ROKR (RIZR) Z6 (2007),Main body,,1.5,30.1,36.2,19.4,16.1,,,,,,103.3,SMARTPHONE
+iPhone 3G A1241 (2008),Display,10.7,,,5.1,,,7.3,,22.74,,,45.84,SMARTPHONE
+iPhone 3G A1241 (2008),Main body,26.6,2.3,0.4,19.8,20.7,15.1,,,,,2.76,87.66,SMARTPHONE
+Blackberry Curve 8900 (2008),Display,4.3,,,0.3,,1.1,8.2,,,,,13.9,SMARTPHONE
+Blackberry Curve 8900 (2008),Main body,,,4.5,22.4,29.7,17.9,,,,13.5,4.4,92.4,SMARTPHONE
+Motorola Droid MB810 (2010),Display,7.2,,,6,,,7.4,,18.1,,,38.7,SMARTPHONE
+Motorola Droid MB810 (2010),Main body,10.5,0.9,22.8,24.2,30,18.3,,,,,1.1,107.8,SMARTPHONE
+Samsung Epic 4G SPHD700 (2010),Display,8.2,,,5.2,,,7.6,,13.6,,,34.6,SMARTPHONE
+Samsung Epic 4G SPHD700 (2010),Main body,,5.2,0.9,28.9,32.1,14.1,,,,27,13.1,121.3,SMARTPHONE
+ ZTE Z992 (2013),Display,7,,,3.7,,,7.9,,14.7,,,33.3,SMARTPHONE
+ ZTE Z992 (2013),Main body,0.1,0.3,19.8,24.3,30.3,14.8,,,,,,89.6,SMARTPHONE
+Samsung Duos GTI9082 (2013),Display,13.4,,,8.6,,0.6,12.4,,21.7,,,56.7,SMARTPHONE
+Samsung Duos GTI9082 (2013),Main body,0.5,0.2,5.3,47.5,37.1,14,,,,,,104.6,SMARTPHONE
+Motorola Moto_E XT1527 (2015),Display,7.5,,,5.4,,,7.8,,20.4,,,41.1,SMARTPHONE
+Motorola Moto_E XT1527 (2015),Main body,1,1.4,4.9,28.5,39,26.3,,,,,,101.1,SMARTPHONE
+Samsung Galaxy S6 SMG920V(2015),Display,0.4,,,,,,5.7,,20.2,,,26.3,SMARTPHONE
+Samsung Galaxy S6 SMG920V(2015),Main body,20.2,2.35,3.6,15.05,39,17.6,,,,,14.6,112.4,SMARTPHONE
+Nest learning thermostat 1st generation 01A (2011),Base plate assembly,0.5,,0.2,34.4,,12.5,,,,,,47.6,THERMOSTAT
+Nest learning thermostat 1st generation 01A (2011),Display back part ,0.6,0.3,5.4,33.5,,,,,,,,39.8,THERMOSTAT
+Nest learning thermostat 1st generation 01A (2011),Display front part assembly,23.8,0.5,13.1,40.7,11.5,15.7,9.7,,,,0.4,115.4,THERMOSTAT
+Nest learning thermostat 1st generation 01A (2011),Others components*,,,64.8,65.3,,,,,,,,130.1,THERMOSTAT
+Ecobee 2nd generation EB-STATe3-02 (2015),Base plate assembly,,,3.0,36.6,,,,,,,,39.6,THERMOSTAT
+Ecobee 2nd generation EB-STATe3-02 (2015),Display back part ,,,,16.1,,,,,,,,16.1,THERMOSTAT
+Ecobee 2nd generation EB-STATe3-02 (2015),Display front part assembly,,1.1,0.8,47.8,3.1,43.4,18.0,,,,0.3,114.4,THERMOSTAT
+Ecobee 2nd generation EB-STATe3-02 (2015),Sensor,,,1.9,15.5,3.1,5.5,,,,,,26.0,THERMOSTAT
+Honeywell non-programmable RTH111B (approx. 2011),Base plate assembly,,,3.1,29.3,,,,,,,,32.4,THERMOSTAT
+Honeywell non-programmable RTH111B (approx. 2011),Display back part ,,,4.4,17.8,,,,,,,,22.2,THERMOSTAT
+Honeywell non-programmable RTH111B (approx. 2011),Display front part assembly,,,,39.5,,41.2,6.3,,,,1.8,88.8,THERMOSTAT
+Honeywell programmable (unknown model) (approx. 2015),Base plate assembly,,,4.4,27.8,,,,,,,,32.2,THERMOSTAT
+Honeywell programmable (unknown model) (approx. 2015),Display back part ,,,,17.8,,,,,,,,17.8,THERMOSTAT
+Honeywell programmable (unknown model) (approx. 2015),Display front part assembly,,,,36.6,,43.9,9.2,,,,3.0,92.7,THERMOSTAT
+Samsung Galaxy Tab GT-P7510 (2011),Battery ,,,0.3,,135,,,,,,,135.3,TABLET
+Samsung Galaxy Tab GT-P7510 (2011),Casing ,,,,75,,,,,,,,75,TABLET
+Samsung Galaxy Tab GT-P7510 (2011),Display ,,1.2,20,48.1,,6.7,55,,110,,1.2,242.2,TABLET
+Samsung Galaxy Tab GT-P7510 (2011),Interior parts ,45,2.7,7.8,4.3,,2.7,,,,,0.3,62.8,TABLET
+Samsung Galaxy Tab GT-P7510 (2011),Motherboard,,,,,,45,,,,,,45,TABLET
+Samsung Galaxy Tab 4 SM-T530 (2014),Battery ,,,0.3,,125,,,,,,,125.3,TABLET
+Samsung Galaxy Tab 4 SM-T530 (2014),Casing ,,,,65,,,,,,,1,66,TABLET
+Samsung Galaxy Tab 4 SM-T530 (2014),Display ,,,20,43.5,,7.3,60,,90,,1.4,222.2,TABLET
+Samsung Galaxy Tab 4 SM-T530 (2014),Interior parts ,,2.2,6.1,41.3,,2.4,,,,,0.2,52.2,TABLET
+Samsung Galaxy Tab 4 SM-T530 (2014),Motherboard ,,,,,,26.2,,,,,,26.2,TABLET
+Apple iPad 8GB 1st gen (2009),Battery ,,,,,129,,,,,,,129,TABLET
+Apple iPad 8GB 1st gen (2009),Casing ,136,,3.1,12,,,,,,,,151.1,TABLET
+Apple iPad 8GB 1st gen (2009),Display* ,,,,,,,154,,188,,,342,TABLET
+Apple iPad 8GB 1st gen (2009),Interior parts ,1.2,1.1,,24.4,,,,,,,7.5,34.2,TABLET
+Apple iPad 8GB 1st gen (2009),Motherboard ,,,9.4,,,20.1,,,,,,29.5,TABLET
+"Panasonic Omnivision, PV 4920 (1990)",Disc drive,,26.0,"1,453.7",63.8,,63.2,,,,,,"1,606.7",VCR
+"Panasonic Omnivision, PV 4920 (1990)",Interiror frame,,,,343.0,,69.0,,,,,,412.0,VCR
+"Panasonic Omnivision, PV 4920 (1990)",Motherboard,,,,,,367.0,,,,,,367.0,VCR
+"Panasonic Omnivision, PV 4920 (1990)",Outer case,,,970.3,257.0,,,,,,,,"1,227.3",VCR
+"Panasonic Omnivision, PV 4920 (1990)",Power supply,,33.0,69.0,55.0,,91.0,,,,,,248.0,VCR
+"LG 24"" 24MP56HA LED monitor (2014)",Casing,,,"1,108.0",623.0,,,,,,,,"1,731.0",LED MONITOR
+"LG 24"" 24MP56HA LED monitor (2014)",Display,,,,488.0,,,468.0,,,,8.0,964.0,LED MONITOR
+"LG 24"" 24MP56HA LED monitor (2014)",Interiors,,,10.8,,,15.0,,,,,7.0,32.8,LED MONITOR
+"LG 24"" 24MP56HA LED monitor (2014)",Motherboard,,,,20.0,,67.0,,,,,,87.0,LED MONITOR
+"LG 24"" 24MP56HA LED monitor (2014)",Stand,,,66.0,301.0,,,,,,,,367.0,LED MONITOR
+"Dell 23"" S2316M LED monitor (2016)",Casing,,,744.0,523.0,,,,,,,,"1,267.0",LED MONITOR
+"Dell 23"" S2316M LED monitor (2016)",Display,,,,451.0,,,439.0,,,,6.0,896.0,LED MONITOR
+"Dell 23"" S2316M LED monitor (2016)",Interiors,17.0,2.5,255.0,2.5,,14.0,,,,,2.3,293.3,LED MONITOR
+"Dell 23"" S2316M LED monitor (2016)",Motherboard,,,,,,64.0,,,,,,64.0,LED MONITOR
+"Dell 23"" S2316M LED monitor (2016)",Stand,,,166.0,356.0,,,,,,,,522.0,LED MONITOR

@@ -1,0 +1,27 @@
+//put mains.csv file in D:\Software\relate-data\dbmss\dbms-74196023-7af3-4c89-97bc-00ca572259e1\import folder and then run
+//For creating nodes of all columns
+LOAD CSV FROM 'file:///main1.csv' AS line
+CREATE (P:Product {name: line[0]})
+create (PC:Product_component {name:line[1]})
+CREATE (AL:Alluminium{name:line[2]})
+CREATE (CU:copper{name:line[3]})
+CREATE (STEEL:Steel{name:line[4]})
+CREATE (PLASTIC:Plastic{name:line[5]})
+CREATE (CATEGORY:Category{name:line[14]})
+CREATE (P)-[r2:COMPONENT_OF]->(PC)
+CREATE (AL)-[r3:Alluminium_OF]->(PC)
+CREATE (CU)-[r4:Copper_OF]->(PC)
+CREATE (STEEL)-[r5:Steel_OF]->(PC)
+CREATE (PLASTIC)-[r6:Plastic_OF]->(PC)
+CREATE (CATEGORY)-[r7:CATEGORY_OF]->(P)
+RETURN PC,P,AL,CU,STEEL,PLASTIC,CATEGORY
+
+//For creating only 2 nodes with attributes as it's properties
+LOAD CSV FROM 'file:///main1.csv' AS line
+CREATE (CATEGORY:Category{name:line[14]})
+CREATE (P:Product {name: line[0]})
+CREATE (PC:Product_component {name:line[1],Al_content:line[2],Cu_content:line[3],Steel_content:line[4],Plastic_content:line[5]})
+CREATE (PC)-[r2:COMPONENT_OF]->(P)
+CREATE (P)-[r7:CATEGORY_OF]->(CATEGORY)
+RETURN P,PC,CATEGORY
+
