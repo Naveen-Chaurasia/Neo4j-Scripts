@@ -1,0 +1,31 @@
+LOAD CSV WITH HEADERS 
+FROM 'file:///main1.csv' AS line
+WITH DISTINCT line
+MERGE (category:Category{name: line.`Category`})
+CREATE (P:Product {name: line.`Product name`})
+
+
+LOAD CSV WITH HEADERS 
+FROM 'file:///main1.csv' AS line
+match (c:Category{name: line.`Category`})
+MERGE (p:Product{name:line.`Product name `})
+with c,p
+MERGE (p)-[:Product_of]->(c)
+return p,c
+
+
+LOAD CSV WITH HEADERS 
+FROM 'file:///main1.csv' AS line
+match (p:Product{name: line.`Product name `})
+MERGE (pc:Product_component{name:line.`Component `})
+with p,pc
+MERGE (pc)-[:component_of]->(p)
+return p,pc
+
+LOAD CSV WITH HEADERS 
+FROM 'file:///main1.csv' AS line with line 
+match (p:Product{name: line.`Product name `})
+CREATE (pc:Product_component{name:line.`Component `,Al_content:line.`Aluminium `,Cu_content:line.`Copper `,Steel_content:line.`Steel `,Plastic_content:line.`Plastic `,Li_ion_Battery_Content:line.`Li_ion battery`,PCB_content:line.`PCB `,Flat_Panel_glass:line.`Flat panel glass`,CRT_glass:line.`CRT glass `,other_glass:line.`Other glass`,other_metal_content:line.`Other metals`,other_contents:line.`Others`,total_mass:line.`Total mass (g)`})
+with p,pc
+MERGE (pc)-[:component_of]->(p)
+return p,pc

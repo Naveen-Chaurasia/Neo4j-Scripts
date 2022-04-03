@@ -39,3 +39,62 @@ CREATE (PC:Product_component {name:line[1],Al_content:line[2],Cu_content:line[3]
 CREATE (PC)-[r2:COMPONENT_OF]->(P)
 CREATE (P)-[r7:CATEGORY_OF]->(CATEGORY)
 RETURN P,PC,CATEGORY
+
+
+
+LOAD CSV WITH HEADERS 
+FROM 'file:///main1.csv' AS line
+WITH DISTINCT line
+//where line.`Product name` is not null
+MERGE (category:Category{name: line.`Category`})
+CREATE (P:Product {name: line.`Product name`})
+
+
+
+CREATE (category)-[:HAS]->(Product)
+
+
+
+SHOW CONSTRAINT
+CREATE CONSTRAINT ON (c:Category) ASSERT c.name IS UNIQUE;
+CREATE CONSTRAINT ON (p:Product) ASSERT p.name IS UNIQUE;
+
+
+MATCH (n)
+DETACH DELETE n
+
+
+
+
+
+
+
+
+
+
+
+
+LOAD CSV WITH HEADERS 
+FROM 'file:///main1.csv' AS line
+//WITH DISTINCT line
+match (c:Category{name: line.Category})
+MERGE (p:Product{name:line.`Product name`})
+with c,p
+MERGE (p)-[:Product_of]->(c)
+
+
+
+
+
+
+
+LOAD CSV WITH HEADERS 
+FROM 'file:///main1.csv' AS line
+match (c:Category{name: line.`Category`})
+//MATCH (pc:Product_component {name:line[1]})
+MERGE (p:Product{name:line.`Product name `})
+with c,p
+MERGE (p)-[:Product_of]->(c)
+//MERGE (pc)-[:component_of]->(p)
+return p,c
+return p,c
