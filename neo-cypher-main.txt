@@ -71,3 +71,18 @@ MERGE (p)-[:Product_of]->(c)
 CREATE (pc:Product_component{name:line.`Component `,Al_content:line.`Aluminium `,Cu_content:line.`Copper `,Steel_content:line.`Steel `,Plastic_content:line.`Plastic `,Li_ion_Battery_Content:line.`Li_ion battery`,PCB_content:line.`PCB `,Flat_Panel_glass:line.`Flat panel glass`,CRT_glass:line.`CRT glass `,other_glass:line.`Other glass`,other_metal_content:line.`Other metals`,other_contents:line.`Others`,total_mass:line.`Total mass (g)`})
 MERGE (pc)-[:component_of]->(p)
 return p,pc,c
+
+
+GRANT ROLE admin TO jake1
+
+
+
+LOAD CSV WITH HEADERS 
+FROM 'file:///main1.csv' AS line
+WITH DISTINCT line
+MERGE (c:Category{name: line.`Category`})
+MERGE (p:Products{name:line.`Product name `})
+MERGE (p)-[:Product_of]->(c)
+CREATE (pc:ProductComponents{name:line.`Component `,Al_content:line.`Aluminium `,Cu_content:line.`Copper `,Steel_content:line.`Steel `,Plastic_content:line.`Plastic `,Li_ion_Battery_Content:line.`Li_ion battery`,PCB_content:line.`PCB `,Flat_Panel_glass:line.`Flat panel glass`,CRT_glass:line.`CRT glass `,other_glass:line.`Other glass`,other_metal_content:line.`Other metals`,other_contents:line.`Others`,total_mass:line.`Total mass (g)`})
+MERGE (pc)-[:component_of]->(p)
+return p,pc,c
