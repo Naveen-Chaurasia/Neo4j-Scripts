@@ -86,3 +86,17 @@ MERGE (p)-[:Product_of]->(c)
 CREATE (pc:ProductComponents{name:line.`Component `,Al_content:line.`Aluminium `,Cu_content:line.`Copper `,Steel_content:line.`Steel `,Plastic_content:line.`Plastic `,Li_ion_Battery_Content:line.`Li_ion battery`,PCB_content:line.`PCB `,Flat_Panel_glass:line.`Flat panel glass`,CRT_glass:line.`CRT glass `,other_glass:line.`Other glass`,other_metal_content:line.`Other metals`,other_contents:line.`Others`,total_mass:line.`Total mass (g)`})
 MERGE (pc)-[:component_of]->(p)
 return p,pc,c
+
+
+http://localhost:7474/db/neo4j/tx
+{
+  "statements": [
+    {
+      "statement": "match (n:Category) RETURN n"
+    }
+  ]
+}
+
+
+
+match (n:Category) match (p:Products) MERGE (p)-[x:Product_of]->(c) RETURN n,p,x
