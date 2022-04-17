@@ -88,6 +88,11 @@ MERGE (pc)-[:component_of]->(p)
 return p,pc,c
 
 
+SHOW CONSTRAINT
+CREATE CONSTRAINT ON (c:Category) ASSERT c.name IS UNIQUE;
+CREATE CONSTRAINT ON (p:Product) ASSERT p.name IS UNIQUE;
+
+
 http://localhost:7474/db/neo4j/tx
 {
   "statements": [
@@ -100,3 +105,7 @@ http://localhost:7474/db/neo4j/tx
 
 
 match (n:Category) match (p:Products) MERGE (p)-[x:Product_of]->(c) RETURN n,p,x
+
+MATCH (pc:ProductComponents)
+match (p:Products)
+RETURN sum(toInteger(pc.Cu_content))
