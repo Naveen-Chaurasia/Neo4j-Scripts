@@ -109,3 +109,33 @@ match (n:Category) match (p:Products) MERGE (p)-[x:Product_of]->(c) RETURN n,p,x
 MATCH (pc:ProductComponents)
 match (p:Products)
 RETURN sum(toInteger(pc.Cu_content))
+
+
+
+MATCH c = (Category)
+match p = (Products)
+match pc=(ProductComponents)  
+FOREACH (n IN nodes(c)
+| match  (Category {name:n.name})<--(Products)<--(ProductComponents) 
+SET n.cu =sum(toInteger(ProductComponents.Cu_content) ))/////////////////////wrong
+
+
+match (Category {name:'LAPTOP'})<--(Products)<--(ProductComponents)
+with ProductComponents,Category,sum(toInteger(ProductComponents.Cu_content)) as s
+set Category.cu=s
+
+match (Category {name:'LAPTOP'})<--(Products)<--(ProductComponents) return sum(toInteger(ProductComponents.Cu_content)) as sum
+match (Products {name:'Dell Latitude 14.1" C600 (2001)'})<--(ProductComponents) return sum(toInteger(ProductComponents.Cu_content))
+match (Products {name:'Dell Latitude 14.1" C600 (2001)'})-->(ProductComponents) return ProductComponents.Cu_content 
+
+
+
+
+****************Final(Aggregation Query at Category Level)**************************
+match (Category {name:'LAPTOP'})<--(Products)<--(ProductComponents)
+call{
+match (Category {name:'LAPTOP'})<--(Products)<--(ProductComponents)
+with ProductComponents,Category,sum((toInteger(ProductComponents.Cu_content))) as s
+return sum(s) as t 
+} 
+set Category.cu=t
