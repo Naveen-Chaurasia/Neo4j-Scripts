@@ -139,3 +139,26 @@ with ProductComponents,Category,sum((toInteger(ProductComponents.Cu_content))) a
 return sum(s) as t 
 } 
 set Category.cu=t
+************************or********************
+match (Category {name:'DRONE'})<--(Products)<--(ProductComponents)
+unwind toInteger(ProductComponents.Cu_content) as u
+with sum(u) as t,Category
+SET Category.cu=t
+return Category
+
+match (Category {name:'DRONE'})<--(Products {name:'Promark P70-VR quadcopter (2016)'})<--(ProductComponents)
+unwind toInteger(ProductComponents.Cu_content) as u
+with sum(u) as t,Category,Products
+SET Products.cu=t
+return Category
+
+
+
+
+match (Category {name:'LAPTOP'})<--(Products)<--(ProductComponents)
+unwind toInteger(ProductComponents.Cu_content) as u
+return sum(u)
+
+
+
+
