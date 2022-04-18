@@ -160,5 +160,29 @@ unwind toInteger(ProductComponents.Cu_content) as u
 return sum(u)
 
 
+************************Aggregation at Category Level*****************
+match (c:Category)
+UNWIND  c AS n
+unwind keys(n) as k
+with n,k
+match (Category {name:n.name})<--(Products)<--(ProductComponents)
+unwind toInteger(ProductComponents.Cu_content) as u
+with sum(u) as t,Category
+SET Category.cu=t
+return Category
+
+*******************Aggregation at Product Level*************************
+match (c:Products)
+UNWIND  c AS n
+with n
+match (Category)<--(Products {name:n.name})<--(ProductComponents)
+unwind toInteger(ProductComponents.Cu_content) as u
+with sum(u) as t,Products
+SET Products.cu=t
+return Products
+
+
+
+
 
 
