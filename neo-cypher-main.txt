@@ -243,3 +243,11 @@ unwind lpc as kpc
 return kpc
 
 
+
+match (c:Category)
+
+unwind c as k
+unwind keys(k) as l
+
+return  c.name, l,  k[l]
+
