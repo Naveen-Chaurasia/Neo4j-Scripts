@@ -205,6 +205,19 @@ SET Category.pcb=pcb_
 SET Category.steel=s
 return Category
 
+
+match (pc:ProductComponents) 
+with  keys(pc)  as lpc limit 1
+match (c:Category)
+unwind lpc as kpc
+UNWIND  c AS n
+with n,kpc
+match (Category{name:n.name})<--(Products )<--(ProductComponents)
+unwind toInteger(ProductComponents[kpc]) as pc
+with sum(pc) as pcb_,Products,Category,kpc
+SET Category.kpc=pcb_
+return Category
+
 match (pc:ProductComponents) return keys(pc)/////for returning properties of a node
 
 
@@ -229,6 +242,7 @@ match (c:Category)
 unwind lpc as kpc
 UNWIND  c AS n
 with n,kpc
+
 match (Category{name:n.name})<--(Products )<--(ProductComponents)
 unwind toInteger(ProductComponents.kpc) as pc
 with sum(pc) as pcb_,Products,Category,kpc
