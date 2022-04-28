@@ -1,0 +1,111 @@
+{
+  "title": "ARDHI-sample",
+  "version": "2.0",
+  "settings": {
+    "pagenumber": 0,
+    "editable": true,
+    "fullscreenEnabled": true,
+    "parameters": {}
+  },
+  "pages": [
+    {
+      "title": "Main Page",
+      "reports": [
+        {
+          "title": "Category wise Bar",
+          "query": "\nMATCH (p:Category) \nRETURN p.name as Category_name,\n       p.cu as cu_content",
+          "width": "3",
+          "type": "bar",
+          "height": "3",
+          "selection": {
+            "index": "Category_name",
+            "value": "cu_content",
+            "key": "(none)"
+          },
+          "settings": {
+            "legend": true,
+            "sortByValue": true,
+            "enableArcLabels": false,
+            "enableArcLinkLabels": false
+          }
+        },
+        {
+          "title": "Product wise Bar",
+          "query": "\nMATCH (c:Products)\nRETURN c.name as name,\n       c.cu as cu ,c.pcb as pcb,c.plastic as plastic,c.steel as steel \n      \n\n",
+          "width": 3,
+          "type": "bar",
+          "height": 3,
+          "selection": {
+            "index": "name",
+            "value": "pcb",
+            "key": "(none)"
+          },
+          "settings": {
+            "nodePositions": {},
+            "showOptionalSelections": false,
+            "barValues": true,
+            "legend": false,
+            "hideSelections": false,
+            "layout": "vertical",
+            "colors": "paired",
+            "valueScale": "linear",
+            "marginBottom": 40
+          }
+        },
+        {
+          "title": "Category wise Bar",
+          "query": "MATCH (n:Category)\nRETURN n.name as name, \n       n.cu as cu,\n       n.pcb as pcb\n\n\n",
+          "width": 3,
+          "type": "bar",
+          "height": 3,
+          "selection": {
+            "index": "name",
+            "value": "cu",
+            "key": "cu"
+          },
+          "settings": {
+            "nodePositions": {},
+            "showOptionalSelections": true
+          }
+        },
+        {
+          "title": "Category wise cu ",
+          "query": "MATCH (c:Category) \nRETURN c.name as Category_name,\n       c.cu as cu \n\n",
+          "width": "3",
+          "type": "pie",
+          "height": "3",
+          "selection": {
+            "index": "Category_name",
+            "value": "cu",
+            "key": "(none)"
+          },
+          "settings": {
+            "nodePositions": {},
+            "sortByValue": true,
+            "interactive": false,
+            "legend": true,
+            "borderWidth": 1
+          }
+        },
+        {
+          "title": "product wise cu",
+          "query": "\nMATCH (c:Products)\nRETURN c.name as name,\n       c.cu as cu ,c.pcb as pcb,c.plastic as plastic,c.steel as steel   \n\n",
+          "width": "4",
+          "type": "pie",
+          "height": "3",
+          "selection": {
+            "index": "name",
+            "value": "cu",
+            "key": "(none)"
+          },
+          "settings": {
+            "nodePositions": {},
+            "sortByValue": true,
+            "legend": false,
+            "borderWidth": 0.1
+          }
+        }
+      ]
+    }
+  ]
+}
