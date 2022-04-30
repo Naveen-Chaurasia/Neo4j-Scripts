@@ -263,3 +263,26 @@ unwind c as k
 unwind keys(k) as l
 return  c.name, l,  k[l]
 
+
+********************Dashboard scripts**************
+MATCH (p:Category) 
+RETURN p.name as Category_name,
+       p.cu as cu_content
+
+MATCH (c:Products)
+RETURN c.name as name,
+       c.cu as cu ,c.pcb as pcb,c.plastic as plastic,c.steel as steel 
+      
+MATCH (n:Category)
+RETURN n.name as name, 
+       n.cu as cu,
+       n.pcb as pcb
+
+MATCH (c:Category) 
+RETURN c.name as Category_name,
+       c.cu as cu 
+MATCH (c:Products)
+RETURN c.name as name,
+       c.cu as cu ,c.pcb as pcb,c.plastic as plastic,c.steel as steel  
+
+
