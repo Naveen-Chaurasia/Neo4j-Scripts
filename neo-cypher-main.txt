@@ -284,5 +284,17 @@ RETURN c.name as Category_name,
 MATCH (c:Products)
 RETURN c.name as name,
        c.cu as cu ,c.pcb as pcb,c.plastic as plastic,c.steel as steel  
+/////////////////////
+match (Category {name:'DRONE'})<--(Products)<--(ProductComponents)
+unwind toInteger(ProductComponents.Cu_content) as u
+with sum(u) as t,Category
+SET Category.cu=t
+return Category
 
+match (Category {name:'DRONE'})<--(Products {name:'Promark P70-VR quadcopter (2016)'})<--(ProductComponents)
+unwind toInteger(ProductComponents.Cu_content) as u
+with sum(u) as t,Category,Products
+SET Products.cu=t
+return Category
+//////////////////////////////
 
