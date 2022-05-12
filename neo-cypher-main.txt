@@ -306,3 +306,8 @@ neo4j
 user:ack1..
 pas>>k1..
 
+
+MATCH (Category{name:'DVD PLAYER'})
+SET Category.image1='https://pngimg.com/uploads/cd_dvd/cd_dvd_PNG102322.png'
+
+
