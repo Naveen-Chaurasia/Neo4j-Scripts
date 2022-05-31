@@ -303,8 +303,8 @@ USername:w....
 Pass>>d..
 
 neo4j 
-user:ack1..
-pas>>k1..
+user:jake1..
+pas>>ke1..
 
 
 MATCH (Category{name:'DVD PLAYER'})
@@ -316,3 +316,9 @@ mvn org.apache.maven.plugins:maven-install-plugin:2.3.1:install-file "-Dfile=lib
 for restoring backuped database 
 D:\Software\relate-data\dbmss\dbms-5ee43576-9146-4e30-bb47-b20a073093f9\bin>neo4j-ad
 min restore --from=C:\Users\navee\Downloads\**** --database=**** --force  
+
+
+LOAD CSV WITH HEADERS 
+FROM 'file:///****.csv' AS line
+WITH DISTINCT line
+create (Chemical1:Structure1 {Chemical1:line.`Level 3`, sdf1: line.`File name (sdf)`})
