@@ -314,9 +314,11 @@ SET Category.image1='https://pngimg.com/uploads/cd_dvd/cd_dvd_PNG102322.png'
 mvn org.apache.maven.plugins:maven-install-plugin:2.3.1:install-file "-Dfile=lib/org.RDKitDoc.jar" "-DgroupId=org.rdkit" "-DartifactId=rdkit-doc" "-Dversion=1.0.0" "-Dpackaging=jar"
 
 for restoring backuped database 
+First we have to stop the database
 D:\Software\relate-data\dbmss\dbms-5ee43576-9146-4e30-bb47-b20a073093f9\bin>neo4j-ad
 min restore --from=C:\Users\navee\Downloads\**** --database=**** --force  
 
+http://www.cheminfo.org/Chemistry/Cheminformatics/FormatConverter/index.html
 
 LOAD CSV WITH HEADERS 
 FROM 'file:///****.csv' AS line
