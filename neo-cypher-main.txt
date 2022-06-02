@@ -320,7 +320,9 @@ min restore --from=C:\Users\navee\Downloads\**** --database=**** --force
 
 http://www.cheminfo.org/Chemistry/Cheminformatics/FormatConverter/index.html
 
-LOAD CSV WITH HEADERS 
-FROM 'file:///****.csv' AS line
-WITH DISTINCT line
-create (Chemical1:Structure1 {Chemical1:line.`Level 3`, sdf1: line.`File name (sdf)`})
+
+CALL org.rdkit.search.exact.smiles(['Chemical', 'Structure'], '***' 
+YIELD canonical_smiles 
+RETURN org.rdkit.utils.svg(canonical_smiles) as svg
+Scalable Vector Graphics is an XML-based vector image format for two-dimensional graphics with support for interactivity and animation. The SVG specification is an open standard developed by the World Wide Web Consortium since 1999. SVG images are defined in a vector graphics format and stored in XML text files. 
+
