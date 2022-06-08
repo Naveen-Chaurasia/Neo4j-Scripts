@@ -331,3 +331,11 @@ YIELD canonical_smiles
 RETURN org.rdkit.utils.svg(canonical_smiles) as svg
 Scalable Vector Graphics is an XML-based vector image format for two-dimensional graphics with support for interactivity and animation. The SVG specification is an open standard developed by the World Wide Web Consortium since 1999. SVG images are defined in a vector graphics format and stored in XML text files. 
 
+for map visualisation in neodash
+WITH
+  point({latitude:toFloat('13.43'), longitude:toFloat('56.21')}) AS p1,
+  point({latitude:toFloat('13.10'), longitude:toFloat('56.41')}) AS p2
+  
+RETURN {id:"a", label: "Person", point: p1},
+       {id: "b", label: "Person", point: p2},
+       {start: "a", end: "b",  id: 1}
