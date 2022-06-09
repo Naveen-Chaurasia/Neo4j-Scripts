@@ -73,7 +73,7 @@ MERGE (pc)-[:component_of]->(p)
 return p,pc,c
 
 
-GRANT ROLE admin TO jake1
+
 
 
 
@@ -323,6 +323,14 @@ min load --from=D:\Ardhi\****.dump  --database=**** -
 -force
 
 
+CREATE USER jake1
+SET PASSWORD 'jake1' CHANGE not REQUIRED
+SET STATUS active
+SET HOME DATABASE ardhi44
+GRANT ROLE admin TO jake1
+
+
+
 http://www.cheminfo.org/Chemistry/Cheminformatics/FormatConverter/index.html
 
 
@@ -339,3 +347,30 @@ WITH
 RETURN {id:"a", label: "Person", point: p1},
        {id: "b", label: "Person", point: p2},
        {start: "a", end: "b",  id: 1}
+
+
+////////////////////////////
+
+match (loc:Location)<-[:SHIPPED_FROM]-(sub_material:Level2)
+with point({latitude:toFloat(loc.Latitude), longitude:toFloat(loc.Longitude)}) AS p1,
+ 
+
+WITH
+  point({latitude:toFloat('13.43'), longitude:toFloat('56.21')}) AS p1,
+  point({latitude:toFloat('13.10'), longitude:toFloat('56.41')}) AS p2
+  
+RETURN {id:"a", label: "Person", point: p1},
+       {id: "b", label: "Person", point: p2},
+       {start: "a", end: "b",type: "KNOWS",  id: 1}
+
+
+
+
+match (loc:Location)<-[:_FROM]-(****:*****)
+//with point({latitude:toFloat(loc.Latitude), longitude:toFloat(loc.Longitude)}) AS p1
+return toFloat(left(loc.Latitude,7)),toFloat(left(loc.Longitude,7))
+
+
+match (loc:Location)<-[:SHIPPED_FROM]-(sub_material:Level2)
+WITH point({latitude:toFloat(left(loc.Latitude,7)), longitude:toFloat(left(loc.Longitude,7))}) AS p1
+RETURN  {id:"a", label: "Person", point: p1};
