@@ -374,3 +374,5 @@ return toFloat(left(loc.Latitude,7)),toFloat(left(loc.Longitude,7))
 match (loc:Location)<-[:SHIPPED_FROM]-(sub_material:Level2)
 WITH point({latitude:toFloat(left(loc.Latitude,7)), longitude:toFloat(left(loc.Longitude,7))}) AS p1
 RETURN  {id:"a", label: "Person", point: p1};
+
+call db.schema.visualization()
