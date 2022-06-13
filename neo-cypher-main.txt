@@ -376,3 +376,9 @@ WITH point({latitude:toFloat(left(loc.Latitude,7)), longitude:toFloat(left(loc.L
 RETURN  {id:"a", label: "Person", point: p1};
 
 call db.schema.visualization()
+
+
+//For Location in neodash app
+match (loc1:Location)<-[sf:SHIPPED_FROM]-(material:Level1)-[st:SHIPPED_TO]->(loc2:Location)
+WITH point({latitude:toFloat(left(loc2.Latitude,7)), longitude:toFloat(left(loc2.Longitude,7))}) AS p1, point({latitude:toFloat(left(loc1.Latitude,7)), longitude:toFloat(left(loc1.Longitude,7))}) AS p2,loc2,loc1,sf,st
+RETURN [{id:"a", material:"****", point: p1,Location:"Shipped_To "+loc2.Location,label:loc2.Location},{id:"b", material:"*****", Location:"Shipped_From "+loc1.Location,label: loc1.Location, point: p2},{start: "a", end: "b",type:"SHIPPED_TO" , id: 1,Material:"*****"}]
