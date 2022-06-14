@@ -1,0 +1,78 @@
+{
+  "title": "LCA Dashboard-Carbon Cafe",
+  "version": "2.1",
+  "settings": {
+    "pagenumber": 0,
+    "editable": true,
+    "fullscreenEnabled": true,
+    "parameters": {}
+  },
+  "pages": [
+    {
+      "title": "Main Page",
+      "reports": [
+        {
+          "title": "GFRP-Material and Chemical Carbon Composition",
+          "query": "match(l2:Level2)<-[:PRESENT_IN]-(c:Level3)\nwhere not l2.SubMaterial='Glass Fiber'\nreturn sum(toInteger(c.CarbonAtomsCount)) as sum_of_carbon_atoms,\nl2.SubMaterial as submaterial,c.CarbonAtomsCount as CarbonAtomsCount,c.ChemicalName as chemicalName\n\n\n",
+          "width": 4,
+          "height": 3,
+          "x": 0,
+          "y": 0,
+          "type": "bar",
+          "selection": {
+            "index": "submaterial",
+            "value": "sum_of_carbon_atoms",
+            "key": "chemicalName"
+          },
+          "settings": {
+            "nodePositions": {},
+            "showOptionalSelections": true,
+            "labelRotation": 0,
+            "barValues": true
+          }
+        },
+        {
+          "title": "GFRP-Chemical Composition",
+          "query": "\nMATCH (c:Level3)\nRETURN c.ChemicalName as chemical_name,c.MolarMass as molar_mass,c.CarbonAtomsCount as carbon_atoms_count,c.CarbonGmPerMolar as carbonGmPerMolar,c.CarbonMassPercentageInMolecule as carbonMassPercentageInMolecule\n\n\n\n\n",
+          "width": 4,
+          "height": 3,
+          "x": 4,
+          "y": 0,
+          "type": "pie",
+          "selection": {
+            "index": "chemical_name",
+            "value": "carbon_atoms_count",
+            "key": "(none)"
+          },
+          "settings": {}
+        },
+        {
+          "title": "GRPF-Chemicals Structure",
+          "query": "http://localhost:3000/embed-test.html\n\n\n",
+          "width": 4,
+          "height": 3,
+          "x": 8,
+          "y": 0,
+          "type": "iframe",
+          "selection": {},
+          "settings": {}
+        },
+        {
+          "title": "GFRP - Transportation Carbon Analysis",
+          "query": "\n\nmatch (loc5:Location)<-[sf:SHIPPED_FROM]-(material:Level1)-[st:SHIPPED_TO]->(loc6:Location)\nwith loc5,loc6\nmatch (loc1:Location)<-[sf:SHIPPED_FROM]-(submaterial:Level2)-[st:SHIPPED_TO]->(loc2:Location)\nwith loc1,loc2,loc5,loc6\nmatch (loc3:Location)<-[sf:SHIPPED_FROM]-(submaterial:Level2{SubMaterial:'UP Resin'})-[st:SHIPPED_TO]->(loc4:Location)\nWITH point({latitude:toFloat(left(loc2.Latitude,7)), longitude:toFloat(left(loc2.Longitude,7))}) AS p1, point({latitude:toFloat(left(loc1.Latitude,7)), longitude:toFloat(left(loc1.Longitude,7))}) AS p2, point({latitude:toFloat(left(loc3.Latitude,7)), longitude:toFloat(left(loc3.Longitude,7))}) AS p3, point({latitude:toFloat(left(loc6.Latitude,7)), longitude:toFloat(left(loc6.Longitude,7))}) AS p4,loc1 as loc1,loc2 as loc2,loc3 as loc3,loc6 as loc6,st as st,sf as sf\nRETURN  [{id:\"a\", label: loc2.Location, point: p1,location:\"Shipped to \"+loc2.Location,Material:\"GFRP\"},{id:\"b\", label: loc1.Location, point: p2,location:\"Shipped from \"+loc1.Location,subMaterial:\"Glass Fiber\"},{id:\"c\",subMaterial:\"UPR Based Gelcoat,Catalyst,UPR Resin\", label: loc3.Location, point: p3},{id:\"d\", label: loc6.Location, point: p4},{start: \"a\", end: \"b\",type:\"SHIPPED_TO\" , id: 1,subMaterial:\"GlassFiber\",co2Emission:sf.CO2Emissions},{start: \"c\", end: \"a\",type:\"SHIPPED_TO\" , id: 2,material:\"Catalyst,UP Resin,UPR Based Gelcoat\",co2Emission:st.CO2Emissions},{start: \"a\", end: \"d\",type:\"SHIPPED_TO\" , id: 3,Material:\"GFRP\",co2Emission:sf.CO2Emissions}]\n\n",
+          "width": 12,
+          "height": 3,
+          "x": 0,
+          "y": 3,
+          "type": "map",
+          "selection": {},
+          "settings": {
+            "nodeColorScheme": "category10",
+            "defaultRelColor": "#001567"
+          }
+        }
+      ]
+    }
+  ],
+  "parameters": {}
+}
