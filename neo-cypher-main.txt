@@ -392,3 +392,5 @@ https://bloom.neo4j.io/index.html?connectURL=neo4j%2Bs%3A%2F%2F6799f560.database
 for sdf files
 
 for exluding null values with merge command give WHERE IS NOT NULL
+
+https://cambridge-intelligence.com/first-impressions-of-keylines/
