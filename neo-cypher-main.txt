@@ -401,3 +401,6 @@ Username: admin
 Password: admin
 
 https://naveen.budibase.app/builder/app/app_dev_naveen_77d34a3d02ab4aa2889411486d714cee/design/screen/screen_6af65d933606485dadab6766fbc64779/cda4250bd4b4d4f51ba1a408076406abc
+
+
+https://www.oracle.com/a/ocom/docs/graph-database-use-cases-ebook.pdf
