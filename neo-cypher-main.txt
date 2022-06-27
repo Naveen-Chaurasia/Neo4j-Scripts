@@ -404,3 +404,5 @@ https://naveen.budibase.app/builder/app/app_dev_naveen_77d34a3d02ab4aa2889411486
 
 
 https://www.oracle.com/a/ocom/docs/graph-database-use-cases-ebook.pdf
+https://www.nature.com/articles/s41598-019-45349-y
+https://towardsdatascience.com/an-introduction-to-graph-neural-network-gnn-for-analysing-structured-data-afce79f4cfdc
