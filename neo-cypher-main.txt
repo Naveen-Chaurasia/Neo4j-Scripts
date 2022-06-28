@@ -423,3 +423,10 @@ call apoc.periodic.iterate(
 apoc.load.json(url)
 
 )
+
+//for loading json values directly in neo4j from url
+WITH 'https://raw.githubusercontent.com/neo4j-contrib/neo4j-apoc-procedures/4.4/core/src/test/resources/person.json' AS url
+CALL apoc.load.json(url) YIELD value as person
+MERGE (p:Person {name:person.name})
+   ON CREATE SET p.age = person.age, p.children = size(person.children)
+
