@@ -414,3 +414,10 @@ for refactoring values
 match(c:company)
 call apoc.refractornormalise as boolen(comp,'ownership(property)',['Private',1]['State Run',0])
 return comp
+
+for changing property name
+call apoc.periodic.iterate(
+'match (c:comp) return comp','set comp.isprivate=comp.ownership remove comp.ownership',
+{batchSize:10,parallel:true}
+
+)
