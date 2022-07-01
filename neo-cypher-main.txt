@@ -498,6 +498,18 @@ https://docs.graphileon.com/graphileon/For_Dashboard_Users/Styling.html
 	"iconOpacity": 0.1,
 	"iconColor": "#000",
 	"iconClass": "fa fa-users"
+},
+for ia_function
+{
+	"fillColor": "#51A3A3",
+	"lineColor": "#51A3A3",
+	"label": "evaluate((%).properties.name||(%).properties.type)",
+	"labelStyle": {
+		"fontWeight": "900",
+		"color": "white"
+	},
+	"lineWidth": "10px",
+	"lineStyle": "dash"
 }
 
 SELECT DISTINCT (VERTEX(?s) as ?n)
