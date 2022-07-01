@@ -512,6 +512,17 @@ for ia_function
 	"lineStyle": "dash"
 }
 
+
+
+node:	applies to any node
+node:MyLabel	applies to any node with a :MyLabel label
+node[myParam]	applies to any node with a .myParam property
+node[myParam=abc]	applies to any node with the .myParam property having the specific value 'abc', or
+node[myParam=Abc Def]	applies to any node with the .myParam property having the specific value 'Abc Def' (case-sensitive)
+node:MyLabel[myParam>5]	applies to any node with a :MyLabel label and for which the .myParam property value is greater than 5.
+node:MyLabel[prop1>5][prop2=10]	applies to any node with a :MyLabel label and for which the value of property .prop is greater than 5 and value of .prop2 is 10.
+rel:	applies to any relation
+rel:MYRELTYPE	applies to any relation of type :MYRELTYPE
 SELECT DISTINCT (VERTEX(?s) as ?n)
 WHERE {	
   ?s ?r ?m . 
