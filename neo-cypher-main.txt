@@ -492,3 +492,11 @@ https://docs.graphileon.com/graphileon/For_Dashboard_Users/Styling.html
 		"color": "black"
 	}
 }
+
+
+SELECT DISTINCT (VERTEX(?s) as ?n)
+WHERE {	
+  ?s ?r ?m . 
+  ?m a ?type . 
+}
+LIMIT 10
