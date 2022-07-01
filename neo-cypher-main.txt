@@ -440,3 +440,7 @@ MERGE (a:Address1 {address_name1:line1.address1})
 ///for putting default values instead of "unknown"
 LOAD CSV WITH HEADERS FROM 'file:///C:/Users/Zona5/Documents/Neo4j/checkIntel/import/personaldata.csv' AS line1
 MERGE (a:Address1 {address_name1: coalesce(line1.address1, "Unknown")})
+
+
+//graphileon tutorial
+https://www.youtube.com/watch?v=fOOptzvhtS4
