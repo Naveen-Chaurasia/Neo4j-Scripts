@@ -492,7 +492,13 @@ https://docs.graphileon.com/graphileon/For_Dashboard_Users/Styling.html
 		"color": "black"
 	}
 }
-
+//for icon styling
+{
+	"fillColor": "#ff0",
+	"iconOpacity": 0.1,
+	"iconColor": "#000",
+	"iconClass": "fa fa-users"
+}
 
 SELECT DISTINCT (VERTEX(?s) as ?n)
 WHERE {	
