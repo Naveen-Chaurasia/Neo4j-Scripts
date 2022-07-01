@@ -444,3 +444,51 @@ MERGE (a:Address1 {address_name1: coalesce(line1.address1, "Unknown")})
 
 //graphileon tutorial
 https://www.youtube.com/watch?v=fOOptzvhtS4
+
+//for Styling
+https://docs.graphileon.com/graphileon/For_Dashboard_Users/Styling.html
+
+//Node style sample
+{
+	"display": "circle",                              // circle|square|rectangle|triangle
+	"width": 80,                                      // in pixels
+	"height": 80,                                     // in pixels
+	"fillColor": "white",                             // html colour
+	"opacity": "1",                                   // 0 - 1
+	"lineColor": "black",                             // html colour
+	"lineWidth": "2px",
+	"lineOpacity": "1",                               // 0 - 1
+	"label": "(%).properties.name",                   // caption, e.g. (%).id or (%).properties.name
+	"labelPosition": "center",                        // top|left|bottom|right|center
+	"iconColor": "black",                             // html colour
+	"iconClass": "fa fa-female"                       // font awesome class, e.g. fa fa-female, see https://fontawesome.com/icons for reference
+   	"image": "(%).properties.image",                  // image as node background
+	"labelStyle": {                                   // caption styling
+		"font": "25px Open Sans Condensed, sans-serif",
+		"fontWeight": "5",
+		"color": "black",
+		"stroke": "none",
+		"strokeWidth": "1"
+	}
+}
+
+
+//Relations style sample
+{
+	"fillColor": "#999",                              // html colour
+	"width": 4,                                       // width in pixels
+	"label": "(%).type",                              // caption, e.g. (%).type or  (%).properties.weight
+	"toDecoration": "none",                           // end decoration
+	"marker": {                                       // marker styling
+		"display": "arrow",
+		"width": 10,
+		"lineWidth": 1,
+		"color": "grey",
+		"fillColor": "grey"
+	},
+	"labelStyle": {                                   // caption styling
+		"font": "15px Verdana",
+		"fontWeight": "0.1px",
+		"color": "black"
+	}
+}
