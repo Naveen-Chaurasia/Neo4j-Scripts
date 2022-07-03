@@ -1,0 +1,452 @@
+{
+	"nodes": [
+		{
+			"id": 4,
+			"labels": [
+				"AlternativeLevel2",
+				"Level2"
+			],
+			"properties": {
+				"BioDiversity": "",
+				"CarbonEmission": "",
+				"CarbonEmissionPerMaterial": "4.1 kg CO₂ emission per kg GFRP",
+				"Cost": "",
+				"Energy": "",
+				"ReuseByRecyclePercentage": "",
+				"SubMaterial": "Epoxy Resin",
+				"Toxicity": "",
+				"Water": ""
+			}
+		},
+		{
+			"id": 5,
+			"labels": [
+				"AlternativeLevel2",
+				"Level2"
+			],
+			"properties": {
+				"BioDiversity": "",
+				"CarbonEmission": "",
+				"CarbonEmissionPerMaterial": "1.7 kg CO₂ emission per kg GFRP",
+				"Cost": "",
+				"Energy": "",
+				"ReuseByRecyclePercentage": "",
+				"SubMaterial": "Phenolic Resin",
+				"Toxicity": "",
+				"Water": ""
+			}
+		},
+		{
+			"id": 6,
+			"labels": [
+				"Process"
+			],
+			"properties": {
+				"CarbonEmission": "",
+				"Cost": "",
+				"Energy": "0.8 kg CO₂ emission per kg GFRP",
+				"ProcessName": "Pultrusion",
+				"ReuseByRecyclePercentage": "",
+				"Toxicity": "",
+				"Water": ""
+			}
+		},
+		{
+			"id": 22,
+			"labels": [
+				"Location"
+			],
+			"properties": {
+				"Latitude": "26.2235° N",
+				"Location": "Manama",
+				"Longitude": "50.5876° E"
+			}
+		},
+		{
+			"id": 23,
+			"labels": [
+				"Location"
+			],
+			"properties": {
+				"Latitude": "25.2048° N",
+				"Location": "Dubai",
+				"Longitude": "55.2708° E"
+			}
+		},
+		{
+			"id": 25,
+			"labels": [
+				"Location"
+			],
+			"properties": {
+				"Latitude": "26.2361° N",
+				"Location": "Dhahran",
+				"Longitude": "50.0393° E"
+			}
+		},
+		{
+			"id": 54,
+			"labels": [
+				"Level0"
+			],
+			"properties": {
+				"BioDiversity": "",
+				"CarbonEmission": "3.96 kg CO₂ Emission per Kg of GFRP",
+				"Cost": "",
+				"Energy": "5.14 kg CO₂ Emission per Kg of GFRP",
+				"Item": "Panel",
+				"ReuseByRecyclePercentage": "30.0 %",
+				"Toxicity": "0.59 DCB eq.",
+				"Water": "80.0 kg per Kg of GFRP"
+			}
+		},
+		{
+			"id": 55,
+			"labels": [
+				"Level1"
+			],
+			"properties": {
+				"BioDiversity": "",
+				"CarbonEmission": "3.96 kg CO₂ Emission per kg of GFRP",
+				"Cost": "",
+				"Energy": "5.14 kg CO₂ Emission per kg of GFRP",
+				"Material": "GFRP",
+				"ReuseByRecyclePercentage": "30 %",
+				"Toxicity": "0.59 DCB eq.",
+				"Water": "80 kg"
+			}
+		},
+		{
+			"id": 56,
+			"labels": [
+				"Level2"
+			],
+			"properties": {
+				"BioDiversity": "",
+				"CarbonEmissionPerMaterial": "0.25 kg CO₂ Emission per kg of GFRP",
+				"Cost": "",
+				"Energy": "",
+				"ReuseByRecyclePercentage": "",
+				"SubMaterial": "Catalyst",
+				"Toxicity": "",
+				"Water": ""
+			}
+		},
+		{
+			"id": 57,
+			"labels": [
+				"Level2"
+			],
+			"properties": {
+				"BioDiversity": "",
+				"CarbonEmissionPerMaterial": "2.09 kg CO₂ Emission per kg of GFRP",
+				"Cost": "",
+				"Energy": "",
+				"ReuseByRecyclePercentage": "",
+				"SubMaterial": "UP Resin",
+				"Toxicity": "",
+				"Water": ""
+			}
+		},
+		{
+			"id": 58,
+			"labels": [
+				"Level2"
+			],
+			"properties": {
+				"BioDiversity": "",
+				"CarbonEmissionPerMaterial": "0.25 kg CO₂ Emission per kg of GFRP",
+				"Cost": "",
+				"Energy": "",
+				"ReuseByRecyclePercentage": "",
+				"SubMaterial": "UPR Based Gelcoat",
+				"Toxicity": "",
+				"Water": ""
+			}
+		},
+		{
+			"id": 59,
+			"labels": [
+				"Level2"
+			],
+			"properties": {
+				"BioDiversity": "",
+				"CarbonEmissionPerMaterial": "0.57 kg CO₂ Emission per kg of GFRP",
+				"Cost": "",
+				"Energy": "",
+				"ReuseByRecyclePercentage": "",
+				"SubMaterial": "Glass Fiber",
+				"Toxicity": "",
+				"Water": ""
+			}
+		},
+		{
+			"id": 66,
+			"labels": [
+				"Level3"
+			],
+			"properties": {
+				"CarbonAtomsCount": "",
+				"CarbonGmPerMolar": "",
+				"CarbonMassPercentageInMolecule": "",
+				"ChemicalName": "Antimony Trioxide",
+				"MolarMass": "",
+				"MolecularFormula": "O₃Sb₂"
+			}
+		},
+		{
+			"id": 67,
+			"labels": [
+				"Level3"
+			],
+			"properties": {
+				"CarbonAtomsCount": "16",
+				"CarbonGmPerMolar": "192.17",
+				"CarbonMassPercentageInMolecule": "55.65",
+				"ChemicalName": "Cobalt Octoate",
+				"MolarMass": "345.34",
+				"MolecularFormula": "C₈H₁₅CoO₂"
+			}
+		},
+		{
+			"id": 68,
+			"labels": [
+				"Level3"
+			],
+			"properties": {
+				"CarbonAtomsCount": "5",
+				"CarbonGmPerMolar": "60.05",
+				"CarbonMassPercentageInMolecule": "22.93",
+				"ChemicalName": "Dibromo Neopentyl Glycol",
+				"MolarMass": "261.94",
+				"MolecularFormula": "C₅H₁₀Br₂O₂"
+			}
+		},
+		{
+			"id": 69,
+			"labels": [
+				"Level3"
+			],
+			"properties": {
+				"CarbonAtomsCount": "4",
+				"CarbonGmPerMolar": "48.04",
+				"CarbonMassPercentageInMolecule": "48.99",
+				"ChemicalName": "Maleic Anhydride",
+				"MolarMass": "98.06",
+				"MolecularFormula": "C₄H₂O₃"
+			}
+		},
+		{
+			"id": 70,
+			"labels": [
+				"Level3"
+			],
+			"properties": {
+				"CarbonAtomsCount": "8",
+				"CarbonGmPerMolar": "96.09",
+				"CarbonMassPercentageInMolecule": "92.26",
+				"ChemicalName": "Styrene",
+				"MolarMass": "104.15",
+				"MolecularFormula": "C₈H₈"
+			}
+		}
+	],
+	"relations": [
+		{
+			"id": 3,
+			"source": 57,
+			"target": 6,
+			"type": "PROCESS",
+			"properties": {}
+		},
+		{
+			"id": 22,
+			"source": 56,
+			"target": 22,
+			"type": "SHIPPED_TO",
+			"properties": {
+				"CO2Emissions": "2.7639",
+				"Expenses": "",
+				"mode": "Road"
+			}
+		},
+		{
+			"id": 23,
+			"source": 57,
+			"target": 23,
+			"type": "SHIPPED_FROM",
+			"properties": {
+				"CO2Emissions": "125.496",
+				"Expenses": "",
+				"mode": "Road"
+			}
+		},
+		{
+			"id": 24,
+			"source": 57,
+			"target": 22,
+			"type": "SHIPPED_TO",
+			"properties": {
+				"CO2Emissions": "125.496",
+				"Expenses": "",
+				"mode": "Road"
+			}
+		},
+		{
+			"id": 26,
+			"source": 58,
+			"target": 22,
+			"type": "SHIPPED_TO",
+			"properties": {
+				"CO2Emissions": "11.205",
+				"Expenses": "",
+				"mode": "Road"
+			}
+		},
+		{
+			"id": 28,
+			"source": 59,
+			"target": 22,
+			"type": "SHIPPED_TO",
+			"properties": {
+				"CO2Emissions": "71.1336",
+				"Expenses": "",
+				"mode": "Sea"
+			}
+		},
+		{
+			"id": 29,
+			"source": 55,
+			"target": 22,
+			"type": "SHIPPED_FROM",
+			"properties": {
+				"CO2Emissions": "17.70888",
+				"Expenses": "",
+				"mode": "Road"
+			}
+		},
+		{
+			"id": 30,
+			"source": 55,
+			"target": 25,
+			"type": "SHIPPED_TO",
+			"properties": {
+				"CO2Emissions": "17.70888",
+				"Expenses": "",
+				"mode": "Road"
+			}
+		},
+		{
+			"id": 67,
+			"source": 54,
+			"target": 55,
+			"type": "HAS_MATERIAL",
+			"properties": {}
+		},
+		{
+			"id": 68,
+			"source": 55,
+			"target": 56,
+			"type": "HAS_SUBMATERIAL",
+			"properties": {
+				"CarbonEmissionPerMaterial": "0.25 kg CO₂ Emission per kg of GFRP"
+			}
+		},
+		{
+			"id": 69,
+			"source": 55,
+			"target": 57,
+			"type": "HAS_SUBMATERIAL",
+			"properties": {
+				"CarbonEmissionPerMaterial": "2.09 kg CO₂ Emission per kg of GFRP"
+			}
+		},
+		{
+			"id": 70,
+			"source": 55,
+			"target": 58,
+			"type": "HAS_SUBMATERIAL",
+			"properties": {
+				"CarbonEmissionPerMaterial": "0.25 kg CO₂ Emission per kg of GFRP"
+			}
+		},
+		{
+			"id": 71,
+			"source": 55,
+			"target": 59,
+			"type": "HAS_SUBMATERIAL",
+			"properties": {
+				"CarbonEmissionPerMaterial": "0.57 kg CO₂ Emission per kg of GFRP"
+			}
+		},
+		{
+			"id": 78,
+			"source": 66,
+			"target": 57,
+			"type": "PRESENT_IN",
+			"properties": {
+				"CarbonMassPercentage": "",
+				"CarbonQuantityPerKgSubMaterial": "",
+				"Level3MaterialPercentage": "2-4"
+			}
+		},
+		{
+			"id": 79,
+			"source": 67,
+			"target": 57,
+			"type": "PRESENT_IN",
+			"properties": {
+				"CarbonMassPercentage": "0.11",
+				"CarbonQuantityPerKgSubMaterial": "0.0011 Carbon per kg of Level2",
+				"Level3MaterialPercentage": "<0.2"
+			}
+		},
+		{
+			"id": 80,
+			"source": 68,
+			"target": 57,
+			"type": "PRESENT_IN",
+			"properties": {
+				"CarbonMassPercentage": "0.46",
+				"CarbonQuantityPerKgSubMaterial": "0.0046 Carbon per kg of Level2",
+				"Level3MaterialPercentage": "<2"
+			}
+		},
+		{
+			"id": 81,
+			"source": 69,
+			"target": 57,
+			"type": "PRESENT_IN",
+			"properties": {
+				"CarbonMassPercentage": "0.1",
+				"CarbonQuantityPerKgSubMaterial": "0.001 Carbon per kg of Level2",
+				"Level3MaterialPercentage": "<0.2"
+			}
+		},
+		{
+			"id": 82,
+			"source": 70,
+			"target": 57,
+			"type": "PRESENT_IN",
+			"properties": {
+				"CarbonMassPercentage": "20.76",
+				"CarbonQuantityPerKgSubMaterial": "0.21 Carbon per kg of Level2",
+				"Level3MaterialPercentage": "20-25"
+			}
+		},
+		{
+			"id": 99,
+			"source": 57,
+			"target": 4,
+			"type": "HAS_ALTERNATIVE",
+			"properties": {}
+		},
+		{
+			"id": 100,
+			"source": 57,
+			"target": 5,
+			"type": "HAS_ALTERNATIVE",
+			"properties": {}
+		}
+	]
+}
