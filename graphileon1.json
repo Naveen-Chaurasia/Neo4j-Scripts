@@ -1,6 +1,62 @@
 {
 	"nodes": [
 		{
+			"id": 0,
+			"labels": [
+				"Level3"
+			],
+			"properties": {
+				"CarbonAtomsCount": "",
+				"CarbonGmPerMolar": "",
+				"CarbonMassPercentageInMolecule": "",
+				"ChemicalName": "Cut Strands",
+				"MolarMass": "",
+				"MolecularFormula": "no formula"
+			}
+		},
+		{
+			"id": 1,
+			"labels": [
+				"Level3"
+			],
+			"properties": {
+				"CarbonAtomsCount": "",
+				"CarbonGmPerMolar": "",
+				"CarbonMassPercentageInMolecule": "",
+				"ChemicalName": "Marketable Cake",
+				"MolarMass": "",
+				"MolecularFormula": "no formula"
+			}
+		},
+		{
+			"id": 2,
+			"labels": [
+				"Level3"
+			],
+			"properties": {
+				"CarbonAtomsCount": "",
+				"CarbonGmPerMolar": "",
+				"CarbonMassPercentageInMolecule": "",
+				"ChemicalName": "Texturized Roving",
+				"MolarMass": "",
+				"MolecularFormula": "no formula"
+			}
+		},
+		{
+			"id": 3,
+			"labels": [
+				"Level3"
+			],
+			"properties": {
+				"CarbonAtomsCount": "",
+				"CarbonGmPerMolar": "",
+				"CarbonMassPercentageInMolecule": "",
+				"ChemicalName": "Compofil",
+				"MolarMass": "",
+				"MolecularFormula": "no formula"
+			}
+		},
+		{
 			"id": 4,
 			"labels": [
 				"AlternativeLevel2",
@@ -52,6 +108,42 @@
 			}
 		},
 		{
+			"id": 7,
+			"labels": [
+				"Energy"
+			],
+			"properties": {
+				"Energy": "0.8 kg CO₂ emission per kg GFRP",
+				"name": "Energy"
+			}
+		},
+		{
+			"id": 8,
+			"labels": [
+				"AlternativeProcess",
+				"Process"
+			],
+			"properties": {
+				"CarbonEmission": "",
+				"Cost": "",
+				"Energy": "0.02 kg CO₂ emission per kg GFRP",
+				"ProcessName": "Infusion",
+				"ReuseByRecyclePercentage": "",
+				"Toxicity": "",
+				"Water": ""
+			}
+		},
+		{
+			"id": 9,
+			"labels": [
+				"Energy"
+			],
+			"properties": {
+				"Energy": "0.02 kg CO₂ emission per kg GFRP",
+				"name": "Energy"
+			}
+		},
+		{
 			"id": 22,
 			"labels": [
 				"Location"
@@ -71,6 +163,17 @@
 				"Latitude": "25.2048° N",
 				"Location": "Dubai",
 				"Longitude": "55.2708° E"
+			}
+		},
+		{
+			"id": 24,
+			"labels": [
+				"Location"
+			],
+			"properties": {
+				"Latitude": "30.2655° N",
+				"Location": "Zhejiang",
+				"Longitude": "120.1536° E"
 			}
 		},
 		{
@@ -181,6 +284,90 @@
 			}
 		},
 		{
+			"id": 60,
+			"labels": [
+				"Level3"
+			],
+			"properties": {
+				"CarbonAtomsCount": "8",
+				"CarbonGmPerMolar": "96.09",
+				"CarbonMassPercentageInMolecule": "45.71",
+				"ChemicalName": "Methyl Ethyl Ketone Peroxide",
+				"MolarMass": "210.22",
+				"MolecularFormula": "C₈H₁₈O₆"
+			}
+		},
+		{
+			"id": 61,
+			"labels": [
+				"Level3"
+			],
+			"properties": {
+				"CarbonAtomsCount": "10",
+				"CarbonGmPerMolar": "120.11",
+				"CarbonMassPercentageInMolecule": "61.85",
+				"ChemicalName": "Dimethyl Phthalate",
+				"MolarMass": "194.18",
+				"MolecularFormula": "C₁₀H₁₀O₄"
+			}
+		},
+		{
+			"id": 62,
+			"labels": [
+				"Level3"
+			],
+			"properties": {
+				"CarbonAtomsCount": "16",
+				"CarbonGmPerMolar": "192.17",
+				"CarbonMassPercentageInMolecule": "67.1",
+				"ChemicalName": "2,2,4-Trimethyl-1,3-pentanediol diisobutyrate",
+				"MolarMass": "286.41",
+				"MolecularFormula": "C₁₆H₃₀O₄"
+			}
+		},
+		{
+			"id": 63,
+			"labels": [
+				"Level3"
+			],
+			"properties": {
+				"CarbonAtomsCount": "",
+				"CarbonGmPerMolar": "",
+				"CarbonMassPercentageInMolecule": "",
+				"ChemicalName": "Hydrogen Peroxide",
+				"MolarMass": "",
+				"MolecularFormula": "H₂O₂"
+			}
+		},
+		{
+			"id": 64,
+			"labels": [
+				"Level3"
+			],
+			"properties": {
+				"CarbonAtomsCount": "4",
+				"CarbonGmPerMolar": "48.04",
+				"CarbonMassPercentageInMolecule": "66.62",
+				"ChemicalName": "Methyl Ethyl Ketone",
+				"MolarMass": "72.11",
+				"MolecularFormula": "C₄H₈O"
+			}
+		},
+		{
+			"id": 65,
+			"labels": [
+				"Level3"
+			],
+			"properties": {
+				"CarbonAtomsCount": "",
+				"CarbonGmPerMolar": "",
+				"CarbonMassPercentageInMolecule": "",
+				"ChemicalName": "Water",
+				"MolarMass": "",
+				"MolecularFormula": "H₂O"
+			}
+		},
+		{
 			"id": 66,
 			"labels": [
 				"Level3"
@@ -249,15 +436,222 @@
 				"MolarMass": "104.15",
 				"MolecularFormula": "C₈H₈"
 			}
+		},
+		{
+			"id": 71,
+			"labels": [
+				"Level3"
+			],
+			"properties": {
+				"CarbonAtomsCount": "16",
+				"CarbonGmPerMolar": "192.17",
+				"CarbonMassPercentageInMolecule": "55.65",
+				"ChemicalName": "Cobalt(II) 2-ethylhexanoate",
+				"MolarMass": "345.34",
+				"MolecularFormula": "C₁₆H₃₂CoO₄"
+			}
+		},
+		{
+			"id": 72,
+			"labels": [
+				"Level3"
+			],
+			"properties": {
+				"CarbonAtomsCount": "",
+				"CarbonGmPerMolar": "",
+				"CarbonMassPercentageInMolecule": "",
+				"ChemicalName": "Fumed Silicia (CAB-O-SIL)",
+				"MolarMass": "",
+				"MolecularFormula": "SiO₂"
+			}
+		},
+		{
+			"id": 73,
+			"labels": [
+				"Level3"
+			],
+			"properties": {
+				"CarbonAtomsCount": "",
+				"CarbonGmPerMolar": "",
+				"CarbonMassPercentageInMolecule": "",
+				"ChemicalName": "Assembled Roving",
+				"MolarMass": "",
+				"MolecularFormula": "no formula"
+			}
+		},
+		{
+			"id": 74,
+			"labels": [
+				"Level3"
+			],
+			"properties": {
+				"CarbonAtomsCount": "",
+				"CarbonGmPerMolar": "",
+				"CarbonMassPercentageInMolecule": "",
+				"ChemicalName": "Direct Roving",
+				"MolarMass": "",
+				"MolecularFormula": "no formula"
+			}
+		},
+		{
+			"id": 75,
+			"labels": [
+				"Level3"
+			],
+			"properties": {
+				"CarbonAtomsCount": "",
+				"CarbonGmPerMolar": "",
+				"CarbonMassPercentageInMolecule": "",
+				"ChemicalName": "Dry Chopped Strands",
+				"MolarMass": "",
+				"MolecularFormula": "no formula"
+			}
+		},
+		{
+			"id": 76,
+			"labels": [
+				"Level3"
+			],
+			"properties": {
+				"CarbonAtomsCount": "",
+				"CarbonGmPerMolar": "",
+				"CarbonMassPercentageInMolecule": "",
+				"ChemicalName": "Wet Chopped Strands",
+				"MolarMass": "",
+				"MolecularFormula": "no formula"
+			}
+		},
+		{
+			"id": 77,
+			"labels": [
+				"Level3"
+			],
+			"properties": {
+				"CarbonAtomsCount": "",
+				"CarbonGmPerMolar": "",
+				"CarbonMassPercentageInMolecule": "",
+				"ChemicalName": "Woven Roving",
+				"MolarMass": "",
+				"MolecularFormula": "no formula"
+			}
+		},
+		{
+			"id": 78,
+			"labels": [
+				"Level3"
+			],
+			"properties": {
+				"CarbonAtomsCount": "",
+				"CarbonGmPerMolar": "",
+				"CarbonMassPercentageInMolecule": "",
+				"ChemicalName": "Power Chopped Strand Mat",
+				"MolarMass": "",
+				"MolecularFormula": "no formula"
+			}
+		},
+		{
+			"id": 79,
+			"labels": [
+				"Level3"
+			],
+			"properties": {
+				"CarbonAtomsCount": "",
+				"CarbonGmPerMolar": "",
+				"CarbonMassPercentageInMolecule": "",
+				"ChemicalName": "Emulsion Chopped Strand Mat",
+				"MolarMass": "",
+				"MolecularFormula": "no formula"
+			}
+		},
+		{
+			"id": 80,
+			"labels": [
+				"Level3"
+			],
+			"properties": {
+				"CarbonAtomsCount": "",
+				"CarbonGmPerMolar": "",
+				"CarbonMassPercentageInMolecule": "",
+				"ChemicalName": "Glass Filament Yarn",
+				"MolarMass": "",
+				"MolecularFormula": "no formula"
+			}
 		}
 	],
 	"relations": [
+		{
+			"id": 0,
+			"source": 4,
+			"target": 6,
+			"type": "PROCESS",
+			"properties": {}
+		},
+		{
+			"id": 1,
+			"source": 5,
+			"target": 6,
+			"type": "PROCESS",
+			"properties": {}
+		},
+		{
+			"id": 2,
+			"source": 56,
+			"target": 6,
+			"type": "PROCESS",
+			"properties": {}
+		},
 		{
 			"id": 3,
 			"source": 57,
 			"target": 6,
 			"type": "PROCESS",
 			"properties": {}
+		},
+		{
+			"id": 4,
+			"source": 58,
+			"target": 6,
+			"type": "PROCESS",
+			"properties": {}
+		},
+		{
+			"id": 5,
+			"source": 59,
+			"target": 6,
+			"type": "PROCESS",
+			"properties": {}
+		},
+		{
+			"id": 6,
+			"source": 6,
+			"target": 7,
+			"type": "ENERGY_USAGE",
+			"properties": {}
+		},
+		{
+			"id": 7,
+			"source": 6,
+			"target": 8,
+			"type": "PROCESS_ALTERNATIVE",
+			"properties": {}
+		},
+		{
+			"id": 8,
+			"source": 8,
+			"target": 9,
+			"type": "ENERGY_USAGE",
+			"properties": {}
+		},
+		{
+			"id": 21,
+			"source": 56,
+			"target": 23,
+			"type": "SHIPPED_FROM",
+			"properties": {
+				"CO2Emissions": "2.7639",
+				"Expenses": "",
+				"mode": "Road"
+			}
 		},
 		{
 			"id": 22,
@@ -293,6 +687,17 @@
 			}
 		},
 		{
+			"id": 25,
+			"source": 58,
+			"target": 23,
+			"type": "SHIPPED_FROM",
+			"properties": {
+				"CO2Emissions": "11.205",
+				"Expenses": "",
+				"mode": "Road"
+			}
+		},
+		{
 			"id": 26,
 			"source": 58,
 			"target": 22,
@@ -301,6 +706,17 @@
 				"CO2Emissions": "11.205",
 				"Expenses": "",
 				"mode": "Road"
+			}
+		},
+		{
+			"id": 27,
+			"source": 59,
+			"target": 24,
+			"type": "SHIPPED_FROM",
+			"properties": {
+				"CO2Emissions": "71.1336",
+				"Expenses": "",
+				"mode": "Sea"
 			}
 		},
 		{
@@ -380,6 +796,72 @@
 			}
 		},
 		{
+			"id": 72,
+			"source": 60,
+			"target": 56,
+			"type": "PRESENT_IN",
+			"properties": {
+				"CarbonMassPercentage": "15.54",
+				"CarbonQuantityPerKgSubMaterial": "0.16 Carbon per kg of Level2",
+				"Level3MaterialPercentage": "34"
+			}
+		},
+		{
+			"id": 73,
+			"source": 61,
+			"target": 56,
+			"type": "PRESENT_IN",
+			"properties": {
+				"CarbonMassPercentage": "26.6",
+				"CarbonQuantityPerKgSubMaterial": "0.27 Carbon per kg of Level2",
+				"Level3MaterialPercentage": "43"
+			}
+		},
+		{
+			"id": 74,
+			"source": 62,
+			"target": 56,
+			"type": "PRESENT_IN",
+			"properties": {
+				"CarbonMassPercentage": "13.42",
+				"CarbonQuantityPerKgSubMaterial": "0.13 Carbon per kg of Level2",
+				"Level3MaterialPercentage": "20"
+			}
+		},
+		{
+			"id": 75,
+			"source": 63,
+			"target": 56,
+			"type": "PRESENT_IN",
+			"properties": {
+				"CarbonMassPercentage": "",
+				"CarbonQuantityPerKgSubMaterial": "",
+				"Level3MaterialPercentage": "1"
+			}
+		},
+		{
+			"id": 76,
+			"source": 64,
+			"target": 56,
+			"type": "PRESENT_IN",
+			"properties": {
+				"CarbonMassPercentage": "1.33",
+				"CarbonQuantityPerKgSubMaterial": "0.013 Carbon per kg of Level2",
+				"Level3MaterialPercentage": "2"
+			}
+		},
+		{
+			"id": 77,
+			"source": 65,
+			"target": 56,
+			"type": "PRESENT_IN",
+			"properties": {
+				"CarbonMassPercentage": "",
+				"CarbonQuantityPerKgSubMaterial": "",
+				"Level3MaterialPercentage": "1"
+			}
+		},
+		{
 			"id": 78,
 			"source": 66,
 			"target": 57,
@@ -432,6 +914,182 @@
 				"CarbonMassPercentage": "20.76",
 				"CarbonQuantityPerKgSubMaterial": "0.21 Carbon per kg of Level2",
 				"Level3MaterialPercentage": "20-25"
+			}
+		},
+		{
+			"id": 83,
+			"source": 71,
+			"target": 58,
+			"type": "PRESENT_IN",
+			"properties": {
+				"CarbonMassPercentage": "0.11",
+				"CarbonQuantityPerKgSubMaterial": "0.0011 Carbon per kg of Level2",
+				"Level3MaterialPercentage": "<0.2"
+			}
+		},
+		{
+			"id": 84,
+			"source": 72,
+			"target": 58,
+			"type": "PRESENT_IN",
+			"properties": {
+				"CarbonMassPercentage": "",
+				"CarbonQuantityPerKgSubMaterial": "",
+				"Level3MaterialPercentage": "2-4"
+			}
+		},
+		{
+			"id": 85,
+			"source": 69,
+			"target": 58,
+			"type": "PRESENT_IN",
+			"properties": {
+				"CarbonMassPercentage": "0.49",
+				"CarbonQuantityPerKgSubMaterial": "0.005 Carbon per kg of Level2",
+				"Level3MaterialPercentage": "<1"
+			}
+		},
+		{
+			"id": 86,
+			"source": 70,
+			"target": 58,
+			"type": "PRESENT_IN",
+			"properties": {
+				"CarbonMassPercentage": "34.6",
+				"CarbonQuantityPerKgSubMaterial": "0.35 Carbon per kg of Level2",
+				"Level3MaterialPercentage": "35-40"
+			}
+		},
+		{
+			"id": 87,
+			"source": 73,
+			"target": 59,
+			"type": "PRESENT_IN",
+			"properties": {
+				"CarbonMassPercentage": "",
+				"CarbonQuantityPerKgSubMaterial": "",
+				"Level3MaterialPercentage": ""
+			}
+		},
+		{
+			"id": 88,
+			"source": 74,
+			"target": 59,
+			"type": "PRESENT_IN",
+			"properties": {
+				"CarbonMassPercentage": "",
+				"CarbonQuantityPerKgSubMaterial": "",
+				"Level3MaterialPercentage": ""
+			}
+		},
+		{
+			"id": 89,
+			"source": 75,
+			"target": 59,
+			"type": "PRESENT_IN",
+			"properties": {
+				"CarbonMassPercentage": "",
+				"CarbonQuantityPerKgSubMaterial": "",
+				"Level3MaterialPercentage": ""
+			}
+		},
+		{
+			"id": 90,
+			"source": 76,
+			"target": 59,
+			"type": "PRESENT_IN",
+			"properties": {
+				"CarbonMassPercentage": "",
+				"CarbonQuantityPerKgSubMaterial": "",
+				"Level3MaterialPercentage": ""
+			}
+		},
+		{
+			"id": 91,
+			"source": 77,
+			"target": 59,
+			"type": "PRESENT_IN",
+			"properties": {
+				"CarbonMassPercentage": "",
+				"CarbonQuantityPerKgSubMaterial": "",
+				"Level3MaterialPercentage": ""
+			}
+		},
+		{
+			"id": 92,
+			"source": 78,
+			"target": 59,
+			"type": "PRESENT_IN",
+			"properties": {
+				"CarbonMassPercentage": "",
+				"CarbonQuantityPerKgSubMaterial": "",
+				"Level3MaterialPercentage": ""
+			}
+		},
+		{
+			"id": 93,
+			"source": 79,
+			"target": 59,
+			"type": "PRESENT_IN",
+			"properties": {
+				"CarbonMassPercentage": "",
+				"CarbonQuantityPerKgSubMaterial": "",
+				"Level3MaterialPercentage": ""
+			}
+		},
+		{
+			"id": 94,
+			"source": 80,
+			"target": 59,
+			"type": "PRESENT_IN",
+			"properties": {
+				"CarbonMassPercentage": "",
+				"CarbonQuantityPerKgSubMaterial": "",
+				"Level3MaterialPercentage": ""
+			}
+		},
+		{
+			"id": 95,
+			"source": 0,
+			"target": 59,
+			"type": "PRESENT_IN",
+			"properties": {
+				"CarbonMassPercentage": "",
+				"CarbonQuantityPerKgSubMaterial": "",
+				"Level3MaterialPercentage": ""
+			}
+		},
+		{
+			"id": 96,
+			"source": 1,
+			"target": 59,
+			"type": "PRESENT_IN",
+			"properties": {
+				"CarbonMassPercentage": "",
+				"CarbonQuantityPerKgSubMaterial": "",
+				"Level3MaterialPercentage": ""
+			}
+		},
+		{
+			"id": 97,
+			"source": 2,
+			"target": 59,
+			"type": "PRESENT_IN",
+			"properties": {
+				"CarbonMassPercentage": "",
+				"CarbonQuantityPerKgSubMaterial": "",
+				"Level3MaterialPercentage": ""
+			}
+		},
+		{
+			"id": 98,
+			"source": 3,
+			"target": 59,
+			"type": "PRESENT_IN",
+			"properties": {
+				"CarbonMassPercentage": "",
+				"CarbonQuantityPerKgSubMaterial": "",
+				"Level3MaterialPercentage": ""
 			}
 		},
 		{
