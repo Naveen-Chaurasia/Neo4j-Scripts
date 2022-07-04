@@ -493,6 +493,13 @@ https://docs.graphileon.com/graphileon/For_Dashboard_Users/Styling.html
 	}
 }
 //for icon styling
+
+{
+    "type": "tooltip",
+    "data":"naveen",
+	"lineColor": "blue",
+	"lineWidth": "14px"
+}
 {
 	"fillColor": "#ff0",
 	"iconOpacity": 0.1,
@@ -529,3 +536,25 @@ WHERE {
   ?m a ?type . 
 }
 LIMIT 10
+
+
+{
+"display": "rectangle",
+	"fillColor": "#51A3v3",
+	"lineColor": "#51A3A3",
+	"label": "evaluate((%).properties.ChemicalName||(%).properties.type)",
+	"labelStyle": {
+		"fontWeight": "900",
+		"color": "white"
+	},
+	"lineWidth": "0px",
+	"lineStyle": "dash"
+}
+
+
+///Query for executing trigger
+CREATE (_179631:IA_Function:IA_Neo4jQuery:Example_1 {`$cypher`:'match (n) RETURN labels(n),COUNT(n) AS cnt     ORDER BY cnt desc', `name`:'LabelsAndCounts'}) 
+CREATE (_179632:IA_Function:IA_TableView:Example_1 {`name`:'LabelsAndCounts'})  
+CREATE (_179631)-[_546660:TRIGGER {`type`:'success', `#data`:'(%).data'}]->(_179632) 
+WITH COUNT(*) AS foo
+MATCH (n:Example_1) RETURN n
