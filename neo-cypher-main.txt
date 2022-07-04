@@ -558,3 +558,7 @@ CREATE (_179632:IA_Function:IA_TableView:Example_1 {`name`:'LabelsAndCounts'})
 CREATE (_179631)-[_546660:TRIGGER {`type`:'success', `#data`:'(%).data'}]->(_179632) 
 WITH COUNT(*) AS foo
 MATCH (n:Example_1) RETURN n
+
+
+//for inserting background image of a node in graphileon
+"image": "(%).properties.file",   
