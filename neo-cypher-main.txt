@@ -562,3 +562,17 @@ MATCH (n:Example_1) RETURN n
 
 //for inserting background image of a node in graphileon
 "image": "(%).properties.file",   
+
+//for editing properties in graphileon
+{
+    "type": "tooltip",
+    "data":"naveen",
+	"lineColor": "blue",
+	"lineWidth": "14px"
+}
+{
+	"fillColor": "#ff0",
+	"iconOpacity": 0.1,
+	"iconColor": "#000",
+	"iconClass": "fa fa-users"
+},
