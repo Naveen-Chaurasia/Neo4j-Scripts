@@ -568,3 +568,7 @@ $template <a href="http://www.graphileon.com" target="_blank"><img src="images/g
 <div class="version-label"> Version</div>
 <div class="version-value">{{version}}</div>
 <div class="cf"></div>
+
+////*********Graphilytic***************////////////
+for grphilytic installation
+https://graphlytic.biz/blog/how-to-install-graphlytic-in-neo4j-desktop
