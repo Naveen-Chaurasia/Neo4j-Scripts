@@ -614,3 +614,8 @@ for (let i = 0; i < node.data._dbLabels.length; i++){
 		break;
 	}
 }
+
+/for buddibase
+https://naveen.budibase.app/app/
+username:ns***
+pass:d***
