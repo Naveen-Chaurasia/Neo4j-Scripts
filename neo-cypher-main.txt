@@ -614,8 +614,16 @@ for (let i = 0; i < node.data._dbLabels.length; i++){
 		break;
 	}
 }
+//for installing grphilytics in neo4j
+https://npm.graphlytic.biz/graphlytic-desktop
 
 /for buddibase
 https://naveen.budibase.app/app/
 username:ns***
 pass:d***
+
+
+///grphylitic username and pass
+
+Username	admin
+Email	admin@admin.com
