@@ -572,3 +572,45 @@ $template <a href="http://www.graphileon.com" target="_blank"><img src="images/g
 ////*********Graphilytic***************////////////
 for grphilytic installation
 https://graphlytic.biz/blog/how-to-install-graphlytic-in-neo4j-desktop
+
+
+
+//for graphilytic
+for (let i = 0; i < node.data._dbLabels.length; i++){
+	let label = node.data._dbLabels[i];
+	switch (label){
+	case "AlternativeLevel2":
+		return "Title_for_label_AlternativeLevel2";
+		break;
+	case "AlternativeProcess":
+		return "Title_for_label_AlternativeProcess";
+		break;
+	case "Chemical":
+		return node.data.Chemical;
+		break;
+	case "Energy":
+		return node.data.Energy;
+		break;
+	case "Level0":
+		return node.data.Item;
+		break;
+	case "Level1":
+		return node.data.Material;
+		break;
+	case "Level2":
+		return node.data.SubMaterial;
+		break;
+	case "Level3":
+		return node.data.ChemicalName;
+		break;
+	case "Location":
+		return node.data.Location;
+		break;
+	case "Process":
+		return node.data.ProcessName;
+		break;
+	case "Structure":
+		return node.data.Structure;
+		break;
+	}
+}
