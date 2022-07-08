@@ -627,3 +627,43 @@ pass:d***
 
 Username	a**********
 Email	a*****@a*****.com
+
+
+for (let i = 0; i < node.data._dbLabels.length; i++){
+	let label = node.data._dbLabels[i];
+	switch (label){
+	case "AlternativeLevel2":
+		return "Title_for_label_AlternativeLevel2";
+		break;
+	case "AlternativeProcess":
+		return "Title_for_label_AlternativeProcess";
+		break;
+	case "Chemical":
+		return node.data;
+		break;
+	case "Energy":
+		return node.data;
+		break;
+	case "Level0":
+		return node.data;
+		break;
+	case "Level1":
+		return node.data;
+		break;
+	case "Level2":
+		return node.data;
+		break;
+	case "Level3":
+		return node.data;
+		break;
+	case "Location":
+		return node.data;
+		break;
+	case "Process":
+		return node.data;
+		break;
+	case "Structure":
+		return node.data;
+		break;
+	}
+}
