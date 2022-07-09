@@ -318,9 +318,7 @@ First we have to stop the database
 D:\Software\relate-data\dbmss\dbms-5ee43576-9146-4e30-bb47-b20a073093f9\bin>neo4j-admin restore --from=C:\Users\navee\Downloads\**** --database=**** --force  
 
 restoring from a dump- after stopping database
-D:\Software\relate-data\dbmss\dbms-5ee43576-9146-4e30-bb47-b20a073093f9\bin>neo4j-ad
-min load --from=D:\Ardhi\****.dump  --database=**** -
--force
+D:\Software\relate-data\dbmss\dbms-5ee43576-9146-4e30-bb47-b20a073093f9\bin>neo4j-admin load --from=D:\Ardhi\****.dump  --database=**** --force
 
 
 CREATE USER jake1
@@ -667,3 +665,5 @@ for (let i = 0; i < node.data._dbLabels.length; i++){
 		break;
 	}
 }
+
+https://www.geeksforgeeks.org/graph-representations-using-set-hash/
