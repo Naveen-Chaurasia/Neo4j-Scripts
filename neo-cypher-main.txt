@@ -667,3 +667,15 @@ for (let i = 0; i < node.data._dbLabels.length; i++){
 }
 
 https://www.geeksforgeeks.org/graph-representations-using-set-hash/
+Prototype app
+D:\Reacte\loginpage\src\logo.svg
+
+
+/////////////////for building execytables jar for a spring project////////////////
+Step 3: Now run the mvn clean package command. If you are using STS/Eclipse IDE, then Right Click on your project » Run As » Maven build… » Goals: clean package » Run.
+
+Step 4: Step 3 will create an executable JAR file of your Spring Boot application and put it within the target folder.
+
+Step 5: Run the executable JAR, using the following Java command.
+
+java -jar target/<your-jar-name>.jar
