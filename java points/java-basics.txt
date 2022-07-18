@@ -1,0 +1,81 @@
+in interface 
+int x=10;(by default it will be final static)
+
+
+Final-could not be changed by anyone.
+Static-can be accessed without making object of it(directly using class)
+
+class simple
+{
+Static String language="English"
+}
+
+class Test
+{
+main()
+{
+
+simple.langiage="Hindi"
+print(simple.language);
+}
+}
+
+
+>>always use final static varualbles for configuration
+eg:Static final String USERNAME:Naveen
+
+we can create refernce to an interface not objects
+Class KafkaConsumer
+Interface Producer
+
+
+Producer:Inetrface in kafka api
+Kafkaproducer:class in kafka api
+
+
+Consumer:interface in kafka api
+KAfkaConsumer:class  in kafka api
+
+Lambdas:
+
+
+List<String> list =new ArrayList<>();
+list.add("red");
+
+for(i..list.size())
+{
+list.get(index);
+}
+
+
+for( String color:list)
+{
+sys.out(color)
+}
+
+
+list.forEach(clor->System.out.println(color));
+
+list.stream().filter(color->color.starttsWith("B")).forEach(color->System.out.println(color))
+
+
+Build tools:
+   downloading artifacts(jars/libararies/dependencies,plugins)
+   making  abuild file (jar/war/ear)
+
+   a.jar>>b.jar>>c.jar>>d.jar
+
+   a.jar
+      b.jar
+         c.jar
+            d.jar
+
+Maven
+Gradle
+
+sbt-scala
+
+for java-maven/gradle
+
+
+
