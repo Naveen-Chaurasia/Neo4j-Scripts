@@ -94,5 +94,61 @@ Bigdata
 HAdoop
   hdfs-storage
   MApreduce-processing(for java)
-  Hive-processing(on top of mapreduce based on sql)
+  Hive-processing(on top of mapreduce based on sql)for those who know sql but not java
 
+  Disk based computing
+
+  spark--
+        In memory based computing-reducing time
+   Historiacal data
+   streaming/Real-time/Livedata
+
+Streaming technologies
+----------------------
+  Apache KAfka-for streaming dta for capturing /passing to respective dashboar
+  Queue based system
+
+
+bbefore kafka jms (java messging system was used)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+////////for running kafka using docker
+
+
+
+save it in docker-compose.yml file
+
+
+version: '3'
+
+services:
+  zookeeper:
+    image: wurstmeister/zookeeper
+    container_name: zookeeper
+    ports:
+      - "2181:2181"
+  kafka:
+    image: wurstmeister/kafka
+    container_name: kafka
+    ports:
+      - "9092:9092"
+    environment:
+      KAFKA_ADVERTISED_HOST_NAME: localhost
+      KAFKA_ZOOKEEPER_CONNECT: zookeeper:2181       
+  
+///
+then run
+docker-compose -f docker-compose.yml up -d
