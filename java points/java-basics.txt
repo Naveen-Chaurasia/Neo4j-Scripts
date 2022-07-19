@@ -76,6 +76,23 @@ Gradle
 sbt-scala
 
 for java-maven/gradle
+Maven:
+helps to download artifacts
+helps todownload dpendent artifact
+helps to compile .package java files
 
 
+Testing:  
+  Unit-JUNIT
+
+
+Bigdata
+  Problems
+      storage
+      processing
+
+HAdoop
+  hdfs-storage
+  MApreduce-processing(for java)
+  Hive-processing(on top of mapreduce based on sql)
 
