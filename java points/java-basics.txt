@@ -133,7 +133,7 @@ producer/sender --->broker/topic/message/partition---->consumer/record
 
 ////////for running kafka using docker
 https://towardsdatascience.com/how-to-install-apache-kafka-using-docker-the-easy-way-4ceb00817d8b
-
+https://levelup.gitconnected.com/running-kafka-on-docker-container-1a15b8d0b77c
 save it in docker-compose.yml file
 
 
@@ -159,7 +159,12 @@ then run
 docker-compose -f docker-compose.yml up -d
 docker ps
 docker exec -it kafka /bin/sh
+cd /opt/kafka_<version>/bin
+kafka-topics.sh --create --zookeeper zookeeper:2181 --replication-factor 1 --partitions 1 --topic quickstart
+kafka-console-producer.sh --topic quickstart --bootstrap-server localhost:9092
+kafka-console-consumer.sh --topic quickstart --from-beginning --bootstrap-server localhost:9092
+
 ////////////////////////////////////////
 
-
+https://levelup.gitconnected.com/running-kafka-on-docker-container-1a15b8d0b77c
 
