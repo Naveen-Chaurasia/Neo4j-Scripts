@@ -113,6 +113,12 @@ bbefore kafka jms (java messging system was used)
 
 
 
+Kafka-Architecture
+--------------------
+producer/sender --->broker/topic/message/partition---->consumer/record
+                               Zookeeeper
+
+
 
 
 
@@ -126,8 +132,7 @@ bbefore kafka jms (java messging system was used)
 
 
 ////////for running kafka using docker
-
-
+https://towardsdatascience.com/how-to-install-apache-kafka-using-docker-the-easy-way-4ceb00817d8b
 
 save it in docker-compose.yml file
 
@@ -152,3 +157,9 @@ services:
 ///
 then run
 docker-compose -f docker-compose.yml up -d
+docker ps
+docker exec -it kafka /bin/sh
+////////////////////////////////////////
+
+
+
