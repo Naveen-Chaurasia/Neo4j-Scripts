@@ -120,7 +120,12 @@ producer/sender --->broker/topic/message/partition---->consumer/record
 
 
 
+Each topic is devided into some no. of  partitions.
+>>>>Partioning improves sclaibility and throughput.
+>>>>Each partition can be replicated across configurable no. of brokers--it provides fault tolerance
 
+A topic partition is an orderes\d and immutable sequence of messages
+>>>>Each message is assigned a unique sequential id known as offset.
 
 
 
@@ -163,7 +168,7 @@ cd /opt/kafka_<version>/bin
 kafka-topics.sh --create --zookeeper zookeeper:2181 --replication-factor 1 --partitions 1 --topic quickstart
 kafka-console-producer.sh --topic quickstart --bootstrap-server localhost:9092
 kafka-console-consumer.sh --topic quickstart --from-beginning --bootstrap-server localhost:9092
-
+kafka-topics.sh -describe --bootstrap-server localhost:9092
 ////////////////////////////////////////
 
 https://levelup.gitconnected.com/running-kafka-on-docker-container-1a15b8d0b77c
