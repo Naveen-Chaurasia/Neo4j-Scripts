@@ -684,3 +684,10 @@ java -jar .jar
 ///////////////
 
 prAlternative.Water = coalesce('','')
+
+
+//To rename property
+match (t:Level1{Material:'CFRP'}) 
+SET t.Water = t.WaterConsumption
+REMOVE t.WaterConsumption
+return t
