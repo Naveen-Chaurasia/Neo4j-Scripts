@@ -680,11 +680,9 @@ Step 5: Run the executable JAR, using the following Java command.
 
 java -jar .jar
 
-
 ///////////////
 
 prAlternative.Water = coalesce('','')
-
 
 //To rename property
 match (t:Level1{Material:'CFRP'}) 
