@@ -750,3 +750,10 @@ YIELD nodeCount, relationshipCount, bytesMin, bytesMax, requiredMemory
 RETURN nodeCount, relationshipCount, bytesMin, bytesMax, requiredMemory
 
 
+
+aura
+ns
+p=J@1
+for nspin
+neo4j
+5iFLemPCwrA4X-lKySgWcMP5G3R6FsP2uPDDV54alTw
