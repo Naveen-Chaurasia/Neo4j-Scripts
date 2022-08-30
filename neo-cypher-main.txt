@@ -763,3 +763,5 @@ https://bloom.neo4j.io/index.html?connectURL=neo4j%2Bs%3A%2F%2F6e113da3.database
 
 for toggle timeline add start date and an end date in in data schema schema database property
 and then add it into visualisation settings
+
+added query on the vis
