@@ -1,0 +1,1 @@
+https://beta3.api.climatiq.io/search?query=Materials+and+Manufacturing&results_per_page=100
