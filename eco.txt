@@ -1,1 +1,5 @@
 https://beta3.api.climatiq.io/search?query=Materials+and+Manufacturing&results_per_page=100
+
+http://jsonviewer.stack.hu/
+https://www.climatiq.io/explorer?category=Building+Materials&search=Materials+and+Manufacturing&page=3
+https://www.convertcsv.com/json-to-csv.htm
