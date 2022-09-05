@@ -766,3 +766,118 @@ and then add it into visualisation settings
 
 added query on the vis
 created flow for rest api in nifi
+
+
+
+
+
+
+
+/////////////////////////////////////////////
+
+MATCH (n:Level0) SET n:Item REMOVE n:Level0
+
+
+
+MATCH (n:Level1) SET n:Material REMOVE n:Level1
+
+
+
+MATCH (n:Level2) SET n:Material REMOVE n:Level2
+
+
+
+MATCH (n:Level3) SET n:Chemical REMOVE n:Level3
+
+
+
+MATCH (n:AlternativeLevel2) REMOVE n:AlternativeLevel2
+
+
+
+MATCH (n:AlternativeProcess) REMOVE n:AlternativeProcess
+
+
+
+MATCH (s:Structure)<-[r:HAS_STRUCTURE]-(c)
+
+SET c.smiles = s.smiles
+
+DETACH DELETE s
+
+
+
+MATCH (e:Energy)
+
+DETACH DELETE e
+
+
+
+MATCH (m:Material)<-[rel:PRESENT_IN]-(c:Chemical)
+
+CALL apoc.refactor.invert(rel)
+
+yield input, output
+
+RETURN input, output
+
+
+
+MATCH (m:Material)-[rel:PRESENT_IN]->(c:Chemical)
+
+CALL apoc.refactor.setType(rel, 'HAS_CHEMICAL')
+
+YIELD input, output
+
+RETURN input, output
+
+
+
+MATCH (:Process)-[rel:ALTERNATIVE]->(:Process)
+
+CALL apoc.refactor.setType(rel, 'ALTERNATIVE_PROCESS')
+
+YIELD input, output
+
+RETURN input, output
+
+
+
+MATCH (p:Process)<-[rel:ALTERNATIVES_PROCESS]-(m)
+
+CALL apoc.refactor.invert(rel)
+
+yield input, output
+
+RETURN input, output
+
+
+
+MATCH (p:Process)-[rel:ALTERNATIVES_PROCESS]->(m)
+
+CALL apoc.refactor.setType(rel, 'USES')
+
+yield input, output
+
+RETURN input, output
+
+
+
+MATCH (p:Process)<-[rel:PROCESS]-(m)
+
+CALL apoc.refactor.invert(rel)
+
+yield input, output
+
+RETURN input, output
+
+
+
+MATCH (p:Process)-[rel:PROCESS]->(m)
+
+CALL apoc.refactor.setType(rel, 'USES')
+
+yield input, output
+
+RETURN input, output
+////////////////////////////////////////////////////
