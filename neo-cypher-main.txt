@@ -897,3 +897,5 @@ RETURN input, output
         call apoc.periodic.iterate("MATCH (n) return n", "DETACH DELETE n", {batchSize:10000})
     </query>
 </etl>
+
+n.ap=toFloat(replace('$row.F', ',', '.')),
