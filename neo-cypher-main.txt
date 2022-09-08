@@ -953,8 +953,9 @@ return n LIMIT 8;
 ///////////////////////////
 
 
+MATCH p=(g)<-[r:HAS_GENDER]-(n)-[t:SITE]->(s)-[u:HAS_CLINICAL_INDICATION]->(ci)-[:HAS_CLOSURE_TYPE]->(ct) RETURN p LIMIT 5
 
-
+MATCH p=(g)<-[r:HAS_GENDER]-(n)-[t:SITE]->(s)-[u:HAS_CLINICAL_INDICATION]->(ci)-[:HAS_CLOSURE_TYPE]->(ct) RETURN p LIMIT 5
 
 
 
