@@ -899,3 +899,40 @@ RETURN input, output
 </etl>
 
 n.ap=toFloat(replace('$row.F', ',', '.')),
+
+
+
+
+
+//////////////////////////////////////////////
+
+CREATE CONSTRAINT Name IF NOT EXISTS 
+ON (l:Name) 
+ASSERT l.name IS UNIQUE; 
+
+
+CREATE CONSTRAINT Clinical_indication IF NOT EXISTS 
+ON (ci:Clinical_indication) 
+ASSERT ci.name IS UNIQUE;
+
+CREATE CONSTRAINT Gender IF NOT EXISTS 
+ON (g:Gender) 
+ASSERT (g.gender) IS UNIQUE; 
+
+CREATE CONSTRAINT Site IF NOT EXISTS 
+ON (s:Site) 
+ASSERT (s.site) IS UNIQUE;
+
+CREATE CONSTRAINT ClosureType IF NOT EXISTS 
+ON (ct:ClosureType) 
+ASSERT (ct.closureType) IS UNIQUE;
+
+
+CREATE CONSTRAINT ReferralType IF NOT EXISTS 
+ON (rt:ReferralType) 
+ASSERT (rt.referralType) IS UNIQUE;
+
+
+
+
+
