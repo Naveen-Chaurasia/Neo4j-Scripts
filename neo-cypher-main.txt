@@ -963,25 +963,9 @@ MATCH p=(g)<-[r:HAS_GENDER]-(n)-[t:SITE]->(s)-[u:HAS_CLINICAL_INDICATION]->(ci)-
 
 /////////////////////////////////////////////////
 
+For handling nullvalues
 
-LOAD CSV WITH HEADERS FROM "file:///2007_2022_Patients.csv" as row
-
-MERGE (n:Name{name: coalesce(trim(row.Name),'')} )
-MERGE (g:Gender{gender: coalesce(trim(row.Gender),'')} )
-MERGE (s:Site{site:coalesce(trim(row.Site),'')})
-MERGE (ci:ClinicalIndication{clinical_indication:coalesce(trim(row.Clinical_Indication),'')} )
-MERGE (ct:ClosureType{closureType: coalesce(trim(row.closure_type),'')} )
-MERGE (rt:ReferralType{referralType: coalesce(trim(row.Type_of_Referral),'')})
-MERGE (a:Age{age: coalesce(trim(row.Age),'')})
-
-WITH n,g,a,s,ci,ct,rt,row 
-MERGE (n)-[:HAS_GENDER]->(g)
-MERGE (n)-[:HAS_AGE]->(a)
-MERGE (n)-[:HAS_CLINICAL_INDICATION]->(ci)
-MERGE (n)-[:HAS_CLOSURE_TYPE]->(ct)
-MERGE (n)-[:HAS_REFERRAL_TYPE]->(rt)
-
-return n LIMIT 5;
-//////////////////////////////////////////////
+MATCH (p:Person)
+RETURN collect(COALESCE(p.email, 'NOT SET')) as emails
 
 
