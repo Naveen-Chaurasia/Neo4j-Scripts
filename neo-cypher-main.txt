@@ -963,7 +963,7 @@ MATCH p=(g)<-[r:HAS_GENDER]-(n)-[t:SITE]->(s)-[u:HAS_CLINICAL_INDICATION]->(ci)-
 
 /////////////////////////////////////////////////
 
-For handling nullvalues
+For handling null values
 
 MATCH (p:Person)
 RETURN collect(COALESCE(p.email, 'NOT SET')) as emails
