@@ -968,4 +968,4 @@ For handling null values
 MATCH (p:Person)
 RETURN collect(COALESCE(p.email, 'NOT SET')) as emails
 
-
+When we instead use null property values, we can MATCH or CREATE using a null property value, but we cannot use MERGE:
