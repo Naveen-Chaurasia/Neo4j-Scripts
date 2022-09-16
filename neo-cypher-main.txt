@@ -973,3 +973,5 @@ When we instead use null property values, we can MATCH or CREATE using a null pr
 
 
 https://home.openweathermap.org/history_bulks/new
+https://openweathermap.org/history-bulk#examples
+https://openweathermap.org/api/solar-radiation
