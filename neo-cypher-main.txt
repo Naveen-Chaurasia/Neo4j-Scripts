@@ -985,3 +985,5 @@ steps for using rdkit in neo4j:
 1. Download rdkit-neo4j project from https://github.com/rdkit/neo4j-rdkit
 2. Unzip the project and go to neo4j-rdkit-master---master one will not create jar file so sownlod other versions for example rdkit 4.4
 3.import it init ecclipse and then create mvn package-it will create a jar file in the target file
+4. copy the generated jar file in plugin folder of neo4j database 
+5. restart the neo4j
