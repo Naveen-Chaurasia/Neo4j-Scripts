@@ -975,3 +975,13 @@ When we instead use null property values, we can MATCH or CREATE using a null pr
 https://home.openweathermap.org/history_bulks/new
 https://openweathermap.org/history-bulk#examples
 https://openweathermap.org/api/solar-radiation
+
+
+
+
+/////////////////////
+
+steps for using rdkit in neo4j:
+1. Download rdkit-neo4j project from https://github.com/rdkit/neo4j-rdkit
+2. Unzip the project and go to neo4j-rdkit-master---master one will not create jar file so sownlod other versions for example rdkit 4.4
+3.import it init ecclipse and then create mvn package-it will create a jar file in the target file
