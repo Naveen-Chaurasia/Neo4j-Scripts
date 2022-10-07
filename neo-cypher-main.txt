@@ -990,4 +990,5 @@ steps for using rdkit in neo4j:
 6.Call dbms.procedures();
 this function will show all the procedures present in rdkit in neo4j
 
+fOR USING RDKIt in neo4j it is mandatory to use this format
 CREATE (c:Chemical:Structure {smiles: 'C(F)(F)F'})
