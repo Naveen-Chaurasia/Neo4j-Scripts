@@ -992,3 +992,13 @@ this function will show all the procedures present in rdkit in neo4j
 
 fOR USING RDKIt in neo4j it is mandatory to use this format
 CREATE (c:Chemical:Structure {smiles: 'C(F)(F)F'})
+
+neo4j+s://86b1bc33.databases.neo4j.io
+FWt0MiQwgVWVRPgUwmEc5NmbChwub6EcxeBp58qz-Fw
+
+
+
+CREATE (Chemical:Chemical{name: "Nitric Acid" , GWP:"  ", Toxicity:" "}) RETURN Chemical
+CREATE (Energy:Energy{name: "energy-1"}) RETURN Energy
+CREATE (Option)-[r:HAS_CHEMICAL]->(Chemical{name:"Nitric Acid"}) return r
+CREATE (Option)-[e:HAS_ENERGY]->(ENERGY) return e
