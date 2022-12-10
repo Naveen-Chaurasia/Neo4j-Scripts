@@ -1002,3 +1002,19 @@ CREATE (Chemical:Chemical{name: "Nitric Acid" , GWP:"  ", Toxicity:" "}) RETURN 
 CREATE (Energy:Energy{name: "energy-1"}) RETURN Energy
 CREATE (Option)-[r:HAS_CHEMICAL]->(Chemical{name:"Nitric Acid"}) return r
 CREATE (Option)-[e:HAS_ENERGY]->(ENERGY) return e
+
+
+//For Aggregating
+match (c:Method)
+UNWIND  c AS n
+unwind keys(n) as k
+with n
+match (Method{name:n.name})-->(Chemical)
+with Method,Chemical
+unwind toInteger(trim(Chemical.GWP)) as u
+with sum(u) as t,Method
+SET Method.GWP=t
+return Method
+
+
+////////////////////////////////////////
