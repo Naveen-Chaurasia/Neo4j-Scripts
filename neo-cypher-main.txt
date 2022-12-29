@@ -993,8 +993,6 @@ this function will show all the procedures present in rdkit in neo4j
 fOR USING RDKIt in neo4j it is mandatory to use this format
 CREATE (c:Chemical:Structure {smiles: 'C(F)(F)F'})
 
-neo4j+s://86b1bc33.databases.neo4j.io
-FWt0MiQwgVWVRPgUwmEc5NmbChwub6EcxeBp58qz-Fw
 
 
 
@@ -1007,14 +1005,52 @@ CREATE (Option)-[e:HAS_ENERGY]->(ENERGY) return e
 //For Aggregating
 match (c:Method)
 UNWIND  c AS n
-unwind keys(n) as k
 with n
 match (Method{name:n.name})-->(Chemical)
 with Method,Chemical
 unwind toInteger(trim(Chemical.GWP)) as u
 with sum(u) as t,Method
 SET Method.GWP=t
+return Method,t
+
+////////////////////////////////////////
+
+
+match (Method{name:"TBAOH-based"})-[r:has_chemical]->(Chemical)
+with Method,Chemical,r
+unwind toInteger(trim(Chemical.GWP)) as u
+unwind toFloat(trim(r.quantity)) as q
+with u*q as t,Method,u,q
+unwind t as l
+with sum(l) as d,Method
+set Method.GWP=d
+return Method	
+
+
+match (c:Method)
+UNWIND  c AS n
+with n
+match (Method{name:n.name})-[r:has_chemical]->(Chemical)
+with Method,Chemical,r
+unwind toFloat(trim(Chemical.GWP)) as u
+unwind toFloat(trim(r.quantity)) as q
+with u*q as t,Method,u,q
+unwind t as l
+with sum(l) as d,Method
+set Method.GWP=d
 return Method
 
 
-////////////////////////////////////////
+
+match (c:Method)
+UNWIND  c AS n
+with n
+match (Method{name:n.name})-[r]->(t)
+with Method,t,r
+unwind toFloat(trim(toString(t.Toxicity))) as u
+unwind toFloat(trim(r.quantity)) as q
+with u*q as t,Method,u,q
+unwind t as l
+with sum(l) as d,Method
+set Method.Toxicity=d
+return Method
