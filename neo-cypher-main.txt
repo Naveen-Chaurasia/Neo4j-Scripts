@@ -1030,7 +1030,7 @@ return Method
 match (c:Method)
 UNWIND  c AS n
 with n
-match (Method{name:n.name})-[r:has_chemical]->(Chemical)
+match (Method{name:n.name})-[r]->(Chemical)
 with Method,Chemical,r
 unwind toFloat(trim(Chemical.GWP)) as u
 unwind toFloat(trim(r.quantity)) as q
@@ -1041,11 +1041,11 @@ set Method.GWP=d
 return Method
 
 
-///////////////////////////////////////////////
+
 match (c:Method)
 UNWIND  c AS n
 with n
-match (Method{name:n.name})-[r]->(t)
+match (Method{name:n.name})-[r:has_chemical]->(t)
 with Method,t,r
 unwind toFloat(trim(toString(t.Toxicity))) as u
 unwind toFloat(trim(r.quantity)) as q
@@ -1054,4 +1054,10 @@ unwind t as l
 with sum(l) as d,Method
 set Method.Toxicity=d
 return Method
-//////////////////////////////////////////////
+
+
+
+
+MATCH (bruceWayne:Person {name:'Bruce Wayne'})
+CALL apoc.do.when(bruceWayne.isOrphan, "MERGE (batman:Hero {name:'Batman'}) CREATE (bruce)-[:SuperheroPersona]->(batman) RETURN bruce", "SET bruce.name = 'Bruce NOT BATMAN Wayne' RETURN bruce", {bruce:bruceWayne}) YIELD value
+...
