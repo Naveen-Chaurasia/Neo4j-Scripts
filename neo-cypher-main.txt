@@ -1061,3 +1061,4 @@ return Method
 MATCH (bruceWayne:Person {name:'Bruce Wayne'})
 CALL apoc.do.when(bruceWayne.isOrphan, "MERGE (batman:Hero {name:'Batman'}) CREATE (bruce)-[:SuperheroPersona]->(batman) RETURN bruce", "SET bruce.name = 'Bruce NOT BATMAN Wayne' RETURN bruce", {bruce:bruceWayne}) YIELD value
 ...
+https://neo4j.com/developer/kb/conditional-cypher-execution/
