@@ -977,6 +977,16 @@ return n LIMIT 8;
 ///////////////////////////////////////////////
 MATCH (id:ID {id: "12700"})
 RETURN id
+////////////////////////////
+LOAD CSV WITH HEADERS FROM "file:///2007_2022_Patients2.csv" as row
+WITH right(row.Date,4) AS date,row
+CALL apoc.do.when(apoc.meta.type(date) = "STRING",
+'CREATE (a:Node{name:"A"}) RETURN a AS node',
+'CREATE (b:Node{name:"B"}) RETURN b AS node',
+  {}
+)
+YIELD value
+RETURN value.node AS node;
 
 
 
