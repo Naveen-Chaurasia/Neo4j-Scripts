@@ -1005,6 +1005,7 @@ Merge (n)-[:HAS_REFREERAL_YEAR]->(yr)
 
 return n LIMIT 8;
 ////////////////////////////////////////////////////////
+LOAD CSV WITH HEADERS FROM "file:///2007_2022_Patients2.csv" as row
 MERGE (n:ID{id: coalesce(trim(row.id),'')} )
 MERGE (g:Gender{gender: coalesce(trim(row.Gender),'')} )
 MERGE (s:Site{site:coalesce(trim(row.Site),'')})
@@ -1023,8 +1024,6 @@ MERGE (n)-[:HAS_CLOSURE_TYPE]->(ct)
 MERGE (n)-[:HAS_REFERRAL_TYPE]->(rt)
 
 return n LIMIT 8;
-
-
 
 /////////////////////////////////////////////////
 
