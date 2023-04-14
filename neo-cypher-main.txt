@@ -987,6 +987,42 @@ CALL apoc.do.when(apoc.meta.type(date) = "STRING",
 )
 YIELD value
 RETURN value.node AS node;
+//////////////////////////
+MERGE (n:ID{id: coalesce(trim(row.id),'')} )
+MERGE (g:Gender{gender: coalesce(trim(row.Gender),'')} )
+MERGE (s:Site{site:coalesce(trim(row.Site),'')})
+MERGE (ci:ClinicalIndication{clinical_indication:coalesce(trim(row.Clinical_Indication),'')} )
+MERGE (ct:ClosureType{closureType: coalesce(trim(row.closure_type),'')} )
+MERGE (rt:ReferralType{referralType: coalesce(trim(row.Type_of_Referral),'')})
+MERGE (yr:Year{yr: coalesce(trim(row.Date3),'')} )
+
+WITH n,g,s,ci,ct,rt,row ,yr
+MERGE (n)-[:HAS_GENDER]->(g)
+MERGE (n)-[:HAS_CLINICAL_INDICATION]->(ci)
+MERGE (n)-[:HAS_CLOSURE_TYPE]->(ct)
+MERGE (n)-[:HAS_REFERRAL_TYPE]->(rt)
+Merge (n)-[:HAS_REFREERAL_YEAR]->(yr)
+
+return n LIMIT 8;
+////////////////////////////////////////////////////////
+MERGE (n:ID{id: coalesce(trim(row.id),'')} )
+MERGE (g:Gender{gender: coalesce(trim(row.Gender),'')} )
+MERGE (s:Site{site:coalesce(trim(row.Site),'')})
+MERGE (ci:ClinicalIndication{clinical_indication:coalesce(trim(row.Clinical_Indication),'')} )
+MERGE (ct:ClosureType{closureType: coalesce(trim(row.closure_type),'')} )
+MERGE (rt:ReferralType{referralType: coalesce(trim(row.Type_of_Referral),'')})
+MERGE (yr:Year{yr: coalesce(trim(row.Date3),'')} )
+Merge(pt:Patient)
+
+WITH n,g,s,ci,ct,rt,row ,yr,pt
+MERGE (pt)-[:HAS_REFREERAL_YEAR]->(yr)
+MERGE (yr)-[:HAS_GENDER]->(g)
+MERGE (g)-[:HAS_Patients]->(n)
+MERGE (n)-[:HAS_CLINICAL_INDICATION]->(ci)
+MERGE (n)-[:HAS_CLOSURE_TYPE]->(ct)
+MERGE (n)-[:HAS_REFERRAL_TYPE]->(rt)
+
+return n LIMIT 8;
 
 
 
