@@ -1101,8 +1101,29 @@ MERGE (n)-[:HAS_REFERRAL_TYPE]->(rt)
 
 return n LIMIT 8;
 
-
 /////////////////////////////////////////////////
+
+LOAD CSV WITH HEADERS FROM "file:///2007_2022_Patients2.csv" as row
+MERGE (n:ID{name:coalesce(trim(row.id),'')})
+MERGE (g:Gender {name:coalesce(trim(row.Gender),'')})
+MERGE (yr:Year {name: coalesce(trim(row.Date3),'')})
+
+MERGE (s:Site{name:coalesce(trim(row.Site),'')})
+MERGE (ci:ClinicalIndication{name:coalesce(trim(row.Clinical_Indication),'')} )
+MERGE (ct:ClosureType{name: coalesce(trim(row.closure_type),'')} )
+MERGE (rt:ReferralType{name: coalesce(trim(row.Type_of_Referral),'')})
+Merge(pt:Patient{name:'Patients'})
+
+WITH n,g,s,ci,ct,rt,row ,yr,pt
+MERGE (pt)-[:HAS_PATIENTS]->(n)
+MERGE (n)-[:HAS_REFFERAL_YEAR]->(yr)
+MERGE (n)-[:HAS_GENDER]->(g)
+MERGE (n)-[:HAS_CLINICAL_INDICATION]->(ci)
+MERGE (n)-[:HAS_CLOSURE_TYPE]->(ct)
+MERGE (n)-[:HAS_REFERRAL_TYPE]->(rt)
+
+return n LIMIT 8;
+
 
 For handling null values
 
